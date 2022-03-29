@@ -1,0 +1,473 @@
+@import url("../blog/blog.component.css");
+
+.container {
+  line-height: 1.6;
+}
+
+.image-section1 {
+  position: relative;
+}
+
+.img-gradient {
+  position: relative;
+  display: inline-block;
+  border-radius: 0px 0px 0px 80px;
+  top: 0;
+  background-size: cover;
+  opacity: 1;
+  z-index: 0;
+}
+
+.img-gradient:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 0px 0px 0px 80px;
+  background: linear-gradient(
+    90deg,
+    #000000cc 0%,
+    #00000099 37%,
+    #00000000 100%
+  );
+}
+
+.img-bg {
+  position: relative;
+  display: inline-block;
+  border-radius: 4px 4px 4px 80px;
+  width: 100%;
+  height: 100%;
+}
+
+.intro-text {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding: 0 100px 100px;
+}
+
+.uvphotons-title1 {
+  position: absolute;
+  top: 10%;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: white;
+  line-height: 1.3;
+  margin-left: 15px;
+}
+
+.window {
+  background: #9000ff 0% 0% no-repeat padding-box;
+  bottom: 0;
+  border-radius: 8px;
+  padding-bottom: 20px;
+}
+
+.decor-dots1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.on-top {
+  margin-top: -50px;
+}
+
+.vxones-title1 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0px;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.vxones-text1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.btn-order {
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 15px;
+  background-color: #ffffff;
+  color: #9000ff;
+  border: 2px solid #ffffff;
+}
+
+.lamp-function {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding: 0 100px 100px;
+}
+
+.x-lamp-title {
+  font-size: 48px;
+  color: #9000ff;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.x-title {
+  font-size: 23px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.x-text {
+  font-size: 18px;
+  color: #575756;
+}
+
+.decor-dots-x-lamp {
+  float: right;
+  width: 100%;
+}
+
+.exposure1 {
+  margin: 0;
+  max-width: 1110px;
+  width: 100%;
+  padding: 0 100px 100px;
+}
+
+.exposure-section1 {
+  background-color: #f8f8f8;
+}
+
+.illustration1 img {
+  padding: 50px 15px;
+  text-align: center;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.exposure-time {
+  padding-top: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.exposure-title {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.decor-dots-xs {
+  float: right;
+}
+
+.viruses {
+  margin: 0;
+  max-width: 1110px;
+  width: 100%;
+  padding: 0 100px 100px;
+}
+
+/* product */
+.section-products {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding: 0 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.lamp-img {
+  width: 270px;
+  height: auto;
+}
+
+.pro-box-left {
+  float: left;
+}
+.pro-box-right {
+  float: right;
+}
+
+.prod {
+  position: absolute;
+  top: 0px;
+  color: #b2b2b2;
+  font-size: 18px;
+}
+
+.lamp-titles {
+  position: absolute;
+  top: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}
+
+.lamp-arrow {
+  position: absolute;
+  top: 140px;
+  color: #b2b2b2;
+  font-weight: 200;
+}
+
+.lamp-margin-botom {
+  margin-bottom: 50px;
+}
+
+.numbers {
+  background-color: #50dcff;
+  color: white;
+  box-shadow: 0px 2px 8px #00000029;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 1px 5px;
+  margin-right: 10px;
+}
+
+.btn-datasheet {
+  margin-top: 30px;
+  width: 111px;
+  height: 40px;
+  border: 2px solid #e2e2e2;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: white;
+}
+
+/* exposure */
+.section-right {
+  float: right;
+}
+
+.virus-horis {
+  border-top: 0.2rem solid #000000;
+  margin-top: 0;
+}
+
+.viruses-lines {
+  height: 45px;
+  padding: 0;
+}
+
+.virus-name {
+  display: inline-block;
+}
+
+.datasheet-time {
+  font-size: 16px;
+  width: 100px;
+}
+
+.datasheet-dist {
+  width: 70px;
+  font-size: 16px;
+  margin-left: 15px;
+  text-align: right;
+  color: #575756;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1200px) {
+  .uvphotons-title1 {
+    font-size: 62px;
+  }
+  .vxones-title1 {
+    font-size: 40px;
+  }
+  .vxones-text1 {
+    font-size: 20px;
+  }
+
+  .x-lamp-title {
+    font-size: 40px;
+  }
+  .datasheet-time {
+    width: 90px;
+  }
+  .datasheet-dist {
+    width: 60px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .uvphotons-title1 {
+    font-size: 48px;
+    top: 5%;
+  }
+  .intro-text {
+    padding: 0 100px 80px;
+  }
+  .window {
+    margin-bottom: 50px;
+  }
+  .vxones-title1 {
+    font-size: 36px;
+  }
+  .btn-order {
+    font-size: 14px;
+  }
+  .lamp-function {
+    padding: 0 100px 80px;
+  }
+  .x-lamp-title {
+    font-size: 36px;
+  }
+  .decor-dots-x-lamp {
+    margin-top: 50px;
+  }
+  .exposure1 {
+    padding: 0 100px 80px;
+  }
+  .viruses {
+    padding: 0 100px 80px;
+  }
+  .exposure-section1 {
+    margin-bottom: 50px;
+  }
+  .lamp-margin {
+    margin-bottom: 50px;
+  }
+  .x-title {
+    font-size: 18px;
+  }
+  .x-text {
+    font-size: 16px;
+  }
+  .btn-datasheet {
+    font-size: 16px;
+  }
+  .datasheet-time {
+    font-size: 14px;
+    width: 80px;
+  }
+  .datasheet-dist {
+    width: 57px;
+    font-size: 14px;
+  }
+  .exposure-time {
+    font-size: 28px;
+  }
+  .lamp-titles {
+    font-size: 28px;
+  }
+  .prod {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cont {
+    padding: 0;
+  }
+  .uvphotons-title1 {
+    font-size: 36px;
+  }
+  .on-top {
+    margin-top: -50px;
+  }
+  .intro-text {
+    padding: 0 55px 80px;
+  }
+  .lamp-function {
+    padding: 0 40px 80px;
+  }
+  .exposure1 {
+    padding: 0 40px 80px;
+  }
+  .section-products {
+    padding: 0 40px;
+  }
+  .viruses {
+    padding: 0 40px 80px;
+  }
+  .datasheet-time {
+    font-size: 14px;
+    width: 55px;
+  }
+  .datasheet-dist {
+    width: 57px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .intro-text {
+    padding: 0 30px 80px;
+  }
+  .uvphotons-title1 {
+    font-size: 32px;
+  }
+  .vxones-title1 {
+    font-size: 28px;
+  }
+  .vxones-text1 {
+    font-size: 18px;
+  }
+  .x-lamp-title {
+    font-size: 28px;
+  }
+  .lamp-function {
+    padding: 0 15px 80px;
+  }
+  .exposure1 {
+    padding: 0 15px 80px;
+  }
+  .section-products {
+    padding: 0 15px;
+  }
+  .exposure-time {
+    font-size: 24px;
+  }
+  .viruses {
+    padding: 0 15px 80px;
+  }
+  .x-text {
+    font-size: 14px;
+  }
+  .x-title {
+    font-size: 16px;
+  }
+  .btn-datasheet {
+    font-size: 14px;
+  }
+  .datasheet-time {
+    font-size: 12px;
+    width: 48px;
+  }
+  .datasheet-dist {
+    width: 45px;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .lamp-titles {
+    font-size: 24px;
+  }
+  .prod {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .uvphotons-title1 {
+    font-size: 30px;
+    top: 15px;
+  }
+  .datasheet-time {
+    font-size: 10px;
+    width: 40px;
+  }
+  .datasheet-dist {
+    width: 35px;
+    font-size: 8px;
+    margin-left: 5px;
+  }
+}

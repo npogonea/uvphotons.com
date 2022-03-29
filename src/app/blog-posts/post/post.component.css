@@ -1,0 +1,127 @@
+
+.tag-name {
+  color: #3EB0EF;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.description {
+  font-size: 23px;
+  margin-top: 20px;
+  color: #738a94;
+}
+.avatar {
+  display: block;
+  overflow: hidden;
+  margin: 0 ;
+  width: 34px;
+  height: 34px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+.author-data {
+  display: inline-block;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.author-name {
+  color: #424852;
+  margin-bottom: 0;
+}
+.date {
+  color: #92a3ab;
+}
+
+.title {
+  font-size: 55px;
+}
+
+.html-text p {
+  font-size: 20px;
+  color: #313B3F;
+  margin-bottom: 30px;
+}
+
+.html-text a {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 300;
+  color: #000000;
+}
+
+.html-text a:hover {
+  font-size: 20px;
+  color: #3EB0EF;
+}
+
+.html-text img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+.html-text h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.html-text h3 {
+  font-size: 25px;
+}
+.html-text strong {
+  font-size: 20px;
+}
+.html-text h2 strong {
+  font-size: 32px;
+}
+
+.html-text p strong {
+  margin-bottom: 30px;
+}
+
+.html-text li {
+  font-size: 20px;
+  color: #313B3F;
+  margin: 10px 0;
+}
+
+.html-text ul {
+  margin-bottom: 30px;
+}
+
+.html-text figcaption {
+  color: #5d7179;
+  text-align: center;
+  font-size: 15PX;
+  margin-bottom: 30px;
+}
+
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  background: #c5d2d9 no-repeat 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.disc-tag {
+  font-size: 12px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: #26a8ed;
+}
+.title-short {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 16px;
+  color: #738a94;
+  font-weight: 300;
+  margin-bottom: 15px;
+}

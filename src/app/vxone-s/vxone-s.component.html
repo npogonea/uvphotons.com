@@ -1,0 +1,233 @@
+<video controls class="video" width="100%" #videoPlayer autoplay [muted]="'muted'" loop>
+  <!-- <app-header></app-header> -->
+  <source  src="assets/video/vx_one_s.mp4" >
+</video>
+<div class="container cont">
+  <div class="image-section1">
+    <!-- <div class="img-gradient">
+      <img src="assets/images/uvphotons_uvc_robot_hotel-web.jpg" alt="VX ONE" class="img-bg image1" style="width:100%;">
+      <img src="assets/images/uvphotons_uvc_robot_hotel-mob.jpg" alt="VX ONE S" class="img-bg image2" style="width:100%;">
+
+    </div> -->
+    <div class="intro-text1">
+      <!-- <div class="row">
+          <p class="uvphotons-title1">The smartest <br> UV-C Disinfection <br> Unit.</p>
+      </div> -->
+      <div class="on-top">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="window">
+              <p class="col-12 vxones-title1">VX-One S</p>
+              <p class="col-12 vxones-text1">The VX-One S a unique and powerful UV-C mobile disinfection solution.</p>
+              <button type="button" class="btn btn-order" (click)="openModal('order-modal')">Order</button>
+            </div>
+            </div>
+            <div class="col-lg-6 decor-dots1"><img class="" src="assets/images/Decor-Dots.png" width="100%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- <div class="vxones-video" id="video-section">
+    <div class="row">
+      <div class="col-lg 6">
+        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/4H-6FmIn3YY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg 6">
+        <img class="vxone-hospital" src="assets/images/uvphotons_uvc_robot_office-mob.jpg" alt="VX ONE S UVC disinfection unit">
+      </div>
+    </div>
+  </div> -->
+
+  <div class="vxone-function">
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="vxone-s-title">Efective, Smart and Mobile</p>
+        <p class="title"><span class="numbers">1</span>Automatic room measurement</p>
+        <p class="text">Advanced sonar sensors automatically measure the room and calculate the optimal desinfection cycle.</p>
+        <p class="title"><span class="numbers">2</span>Safe</p>
+        <p class="text">Advanced Infrared sensors detect 92 unique points of movement and instantly turn off radiation.</p>
+        <p class="title"><span class="numbers">3</span>Powerful</p>
+        <p class="text">Up to 880W UVC radiation disinfects a room of 120m2 in 10 to 15 minutes.</p>
+        <p class="title"><span class="numbers">4</span>Extendable</p>
+        <p class="text">Extends from 1.6 to 2.6 meters length using hydraulics to reach surfaces beyond shadows.</p>
+        <a href="https://uvphotons.com/datasheet/uvphotons-vxones.pdf"><button type="button" class="btn btn-datasheet">Datasheet</button></a>
+        <a href="https://uvphotons.com/datasheet/P_2020_1015_VXONE.pdf"><button type="button" class="btn btn-measurements-second">UV-C measurements</button></a>
+      </div>
+      <div class="col-lg-6">
+          <div class="vxone-decoraiton">
+            <img class="decor-dots-vxone" src="assets/images/VXone-num.jpg" alt="">
+          </div>
+      </div>
+      <div class="col-lg-6"></div>
+        <!-- <div class="col-lg-6">
+            <ngx-gallery class="ngx-gallery" style="width: 110px; height: 38px; float: right;" [options]="galleryOptions" [images]="galleryImages" ></ngx-gallery>
+          </div> -->
+    </div>
+  </div>
+
+  <div class="container information-section">
+    <div class="row">
+      <div class="col-lg-12">
+        <ngx-gallery class="ngx-gallery" style="width: 100%; height: 600px; float: right;" [options]="galleryOptions" [images]="galleryImages" ></ngx-gallery>
+      </div>
+    </div>
+  </div>
+
+  <div class="exposure1">
+    <div class="row">
+      <div class="col-lg-7">
+      <div class="exposure-section1">
+          <div class="col-lg-12">
+            <p class="exposure-time">UVC Exposure Time</p>
+            <p class="exposure-title">Each lamp can radiate over 30m2, enabling a 120m2 sterilization in 10 to 15 minutes.</p>
+          </div>
+          <div class="col-12 illustration1">
+          <img class="" src="assets/images/Illustration-range.png" alt="">
+          </div>
+      </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="exposure-section1">
+            <div class="col-lg-12">
+              <p class="exposure-time">Tablet</p>
+              <p class="exposure-title">Smart 7" tablet provides a intuitive user interface.</p>
+            </div>
+            <div class="col-12 application">
+            <img class="" src="assets/images/application.jpg" alt="">
+            </div>
+        </div>
+        <div class="col-lg-12">
+          <p class="download1">Tablet included.</p>
+          <img class="decor-dots-xs1" src="assets/images/Decor-Dots-xs.png" alt="UV Lamp" >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="information-section">
+    <hr class="new1">
+    <div class="row" (click)="openDialogA()">
+      <div class="col-9">
+        <p class="blog-title1">UV-C Configurations</p>
+      </div>
+      <div class="col-3">
+        <img class="arrow-down" src="assets/images/arrow-down.png">
+      </div>
+    </div>
+    <div class="content" id="{{'a'}}">
+      <p>VX-One S comes in different configuration options. The models range from 110W to 880W UV-C output. Higher the output, longer the radiation range and shorther the disinfection cycle. All models are upgradable by purchasing additional lamps and wings.</p>
+      <img class="vxone-models" src="assets/images/vxones-models.jpg" alt="VX ONE S MODELS">
+    </div>
+    <hr class="new1">
+    <div class="row" (click)="openDialogB()">
+      <div class="col-9">
+        <p class="blog-title1">UV-C Effectiveness</p>
+      </div>
+      <div class="col-3">
+        <img class="arrow-down" src="assets/images/arrow-down.png">
+      </div>
+    </div>
+    <div class="content" id="{{'b'}}">
+        <p>The VX-One S UV-C radiation levels where measured by The Institute of Occupational Safety in Slovenia, Ljubljana. The measurement
+          reports are available <a href="https://uvphotons.com/datasheet/P_2020_1015_VXONE.pdf">here.</a></p>
+
+        <p>Included with the unit are certified UVC dosimeters that changes color to visibly demonstrate three energy
+          levels of UV-C exposure (254 nm) at 25, 50 and 100 mJ/cm2. The dosimeters can be placed on the objects to verify the radiation amount. A study has shown that SARS-CoV-2, the virus that
+          causes COVID19, can be inactivated by UV-C at a dose of 22 mJ/cm2. Reaching a dose of 50 and 100 mJ/cm2. More information on <a href="https://uvphotons.com/datasheet/UVC_100TRI.pdf">UVC dosimeters.</a></p>
+    </div>
+    <hr class="new1">
+    <div class="row" (click)="openDialogC()">
+      <div class="col-9">
+        <p class="blog-title1">Certifications</p>
+      </div>
+      <div class="col-3">
+        <img class="arrow-down" src="assets/images/arrow-down.png">
+      </div>
+    </div>
+    <div class="content" id="{{'c'}}">
+      <p>The VX-One S is certified for use in the hospitality sector and critical government institutions. It's been tested by
+      the independent Slovenian Institute of Quality and Metrology for the following standards: EN 303 446-1 (55015), EN
+      60598-1:2015+A1, EN 60598-2-:2018, and EN 62471:2008. The test reports are available per request. The CE certification
+      is available <a href="https://uvphotons.com/datasheet/VX-ONES20200802-CE.pdf">here.</a></p>
+  </div>
+    <hr class="new1">
+  </div>
+
+  <div class="section-products">
+    <div class="row">
+      <div class="col-lg-6">
+        <a routerLink="/products/vxone-air" routerLinkActive="active">
+          <div class="pro-box-right">
+          <img class="lamp-img" src="assets/images/VXONE_AIR.png" alt="UV Lamp" >
+          </div>
+          <div class="pro-box-left">
+            <div class="prod">Product</div>
+            <div class="lamp-titles">VX ONE AIR</div>
+            <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-6 c-serias-margin">
+        <a routerLink="/products/lamps" fragment="x-serias-lamp" routerLinkActive="active" href="">
+          <div class="pro-box-right">
+          <img class="lamp-img" src="assets/images/X-35W.jpg" alt="UV Lamp" >
+          </div>
+          <div class="pro-box-left">
+            <div class="prod">Product</div>
+            <div class="lamp-titles">Lamps <br> Series</div>
+            <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog" id="stories">
+    <hr class="new1">
+    <div class="row">
+      <div class="col-12 blog-post">
+        <a href="https://uvphotons.com/stories/odor-from-uvc-systems" style="text-decoration: none; color: black;">
+          <div class="row">
+            <div class="col-9">
+              <p class="blog-data">26. Jul - Ljubljana</p>
+              <p class="blog-title">All about odor from UV-C Systems</p>
+            </div>
+            <div class="col-3 arrow" >
+              <span  style='font-size: 32px; color: #9000FF; font-weight: 200;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr class="new1">
+    <div class="row">
+      <div class="col-12 blog-post">
+        <a href="https://uvphotons.com/stories/about-uv-safety" style="text-decoration: none; color: black;">
+          <div class="row">
+            <div class="col-9">
+              <p class="blog-data">31. May - Ljubljana</p>
+              <p class="blog-title">About UV (UV-C) Safety</p>
+            </div>
+            <div class="col-3 arrow" >
+              <span  style='font-size: 32px; color: #9000FF; font-weight: 200;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr class="new1">
+    <a routerLink="/stories"  routerLinkActive="active" href="#" style="text-decoration: none; color: black;">
+      <button type="button" class="btn-stories" >All Stories</button>
+    </a>
+  </div>
+</div>
+
+<jw-modal id="order-modal">
+  <app-ordermodal></app-ordermodal>
+  <!-- <button (click)="closeModal('order-modal');" class="btn-close">Close</button> -->
+</jw-modal>

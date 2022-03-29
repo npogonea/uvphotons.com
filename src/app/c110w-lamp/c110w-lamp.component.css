@@ -1,0 +1,47 @@
+
+@import url('../blog/blog.component.css');
+@import url('../x35w-lamp/x35w-lamp.component.css');
+
+
+@media screen and (max-width: 768px) {
+  .viruses-lines {
+    height: 90px;
+    padding: 0;
+  }
+  .datasheet-time {
+    font-size: 12px;
+    width: 55px;
+  }
+  .datasheet-dist {
+    width: 55px;
+    font-size: 10px;
+  }
+  .dots-pad {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .datasheet-time {
+    font-size: 12px;
+    width: 48px;
+  }
+  .datasheet-dist {
+    width: 45px;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 359px){
+  .datasheet-time {
+    font-size: 10px;
+    width: 40px;
+  }
+  .datasheet-dist {
+    width: 37px;
+    font-size: 8px;
+    margin-left: 5px;
+  }
+}
+

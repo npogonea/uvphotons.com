@@ -1,0 +1,40 @@
+<video controls class="video" width="100%" #videoPlayer autoplay [muted]="'muted'" loop>
+  <!-- <app-header></app-header> -->
+  <source  src="assets/video/vxone_air.mp4" >
+</video>
+
+<div class="container cont">
+  <div class="image-section1">
+    <!-- <div class="img-gradient">
+      <img src="assets/images/uvphotons-vxone_air-vxones.jpg" alt="VX ONE S UVC Disinfection unit" class="img-bg" style="width:100%;">
+    </div> -->
+    <div class="intro-text">
+      <!-- <div class="row">
+          <p class="uvphotons-title1">Surface and Air <br> UV-C Disinfection <br> Solutions</p>
+      </div> -->
+      <div class="on-top">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="window">
+              <p class="col-12 vxones-title1">VX-One Air</p>
+              <p class="col-12 vxones-text1">Sensor controlled, UVC and HEPA powered air sterilization.</p>
+              <button type="button" class="btn btn-order" (click)="openModal('order-modal')">Order</button>
+              <button type="button" routerLink="/products/vxone-air" fragment="func-vxone-air" routerLinkActive="active" class="btn btn-more" >More Info</button>
+            </div>
+            </div>
+            <div class="col-lg-6 decor-dots1">
+              <img class="" src="assets/images/Decor-Dots.png" width="100%">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<jw-modal id="order-modal">
+  <app-ordermodal></app-ordermodal>
+  <!-- <button (click)="closeModal('order-modal');">Close</button> -->
+</jw-modal>

@@ -1,0 +1,306 @@
+<video controls class="video" width="100%" #videoPlayer autoplay [muted]="'muted'" loop>
+  <!-- <app-header></app-header> -->
+  <source  src="assets/video/vxone_air.mp4" >
+</video>
+<div class="container cont">
+  <div class="image-section1">
+    <!-- <div class="img-gradient">
+      <img src="assets/images/uvphotons-vxones_air.jpg" alt="VX ONE AIR" class="img-bg" style="width:100%;">
+    </div> -->
+    <div class="intro-text1">
+      <!-- <div class="row">
+          <p class="uvphotons-title1">Industrial grade <br> UV-C AIR <br> sterilization</p>
+      </div> -->
+      <div class="on-top" id="vxone-air">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="window">
+              <p class="col-12 vxones-title1">VX-One Air</p>
+              <p class="col-12 vxones-text1">Sensor controlled, UVC and HEPA powered air sterilization.</p>
+              <button type="button" class="btn btn-order" (click)="openModal('order-modal')">Order</button>
+            </div>
+            </div>
+            <div class="col-lg-6 decor-dots1"><img class="" src="assets/images/Decor-Dots.png" width="100%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+
+  <div class="vxone-screen-function" id="func-vxone-air">
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="vxone-s-title">High precision air quality sensors</p>
+        <p class="title"><span class="numbers">1</span>Automatic operation</p>
+        <div class="text" [class.show]="showMore1">
+          <p class="show-text" >Automated and manual operation mode. The automated mode adjusts the filtering sensitivity based on high precision air sensors readings.
+            <!-- <ng-container *ngIf="showMore1">
+             automatically adjusts the filtering.
+            </ng-container>
+            <button type="button" class=" show-btn" (click)="showMore1= !showMore1">{{showMore1 ?'hide':'...' }}</button> -->
+          </p>
+        </div>
+        <p class="title"><span class="numbers">2</span>Advanced sensors</p>
+        <div class="text" [class.show]="showMore2">
+          <p class="show-text" >The unit fuses volatile organic compounds (VOCs) sensors with advanced VOC Index algorithms and MCERTS-certified fine particulate matter PM2.5
+            <ng-container *ngIf="showMore2">
+              and PM10 sensors, providing a real-time picture of room AIR quality.
+            </ng-container>
+            <button type="button" class=" show-btn" (click)="showMore2= !showMore2">{{showMore2 ?'hide':'...' }}</button></p>
+        </div>
+        <!-- <p class="text">The unit incorporates volatile organic compounds (VOCs) sensors with advanced VOC Index algorithms and MCERTS-certified fine particulate matter PM2.5 and PM10 sensors, providing a real-time picture of room AIR quality.</p> -->
+        <p class="title"><span class="numbers">3</span>Silent operation</p>
+        <p class="text" style="margin-bottom: 0px;">A premium aluminum vibration-free ventilator provides silent ( 45db* ) operation.</p>
+      </div>
+      <div class="col-lg-6">
+          <div class="row vxone-decoraiton">
+            <img class=" col-lg-12  touch-screen-img" src="assets/images/touch-screen-bg.png"  alt="">
+            <p class="col-lg-12" style="font-size: 24px; text-align: center; margin-bottom: 0px;">3.2” touch screen</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container vxone-screen-function" >
+    <div class="row">
+      <div class="col-lg-12">
+        <ngx-gallery class="ngx-gallery" style="width: 100%; height: 600px; float: right;" [options]="galleryOptions" [images]="galleryImages" ></ngx-gallery>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="vxones-video" id="video-section">
+    <div class="row">
+      <div class="col-lg 6">
+        <img class="vxone-hospital store-img" src="assets/images/uvphotons_vxone_air_gum.jpg" alt="VX ONE S UVC disinfection unit">
+      </div>
+      <div class="col-lg 6">
+        <img class="vxone-hospital" src="assets/images/uvphotons_vxone_air_store.jpg" alt="VX ONE S UVC disinfection unit">
+      </div>
+    </div>
+  </div> -->
+
+  <div class="vxone-function">
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="vxone-s-title">Extremely powerful, Effective and Mobile</p>
+        <p class="title"><span class="numbers">1</span>Fine dust F9 filter</p>
+        <p class="text">Robust particle filter to catch particles of size 1 - 10 µm over a surface of 8 square meters.</p>
+        <p class="title"><span class="numbers">2</span>Robust ultrawide controlled fan</p>
+        <p class="text">Aluminium Fan blades produce a nominal airflow up to 980 (m3/h).</p>
+        <p class="title"><span class="numbers">3</span>UV-C 440W chamber</p>
+        <p class="text">8x – 55W UV-C lamps curved into a reflective aluminium maximize the air sterilization.</p>
+        <p class="title"><span class="numbers">4</span>HEPA H13 filter</p>
+        <p class="text">Ultrafine HEPA filter of particle size < 1 µm over a surface of 8 square meters.</p>
+        <a href="https://uvphotons.com/datasheet/UVPhotonsVXOneAIR.pdf"><button type="button" class="btn btn-datasheet">Datasheet</button></a>
+        <!-- <a href="https://uvphotons.com/datasheet/P_2020_1015_VXONE.pdf" fragment="x-serias-lamp"><button type="button" class="btn btn-measurements-second">UV-C measurements</button></a> -->
+      </div>
+      <div class="col-lg-6">
+          <div class="vxone-decoraiton">
+            <img class="decor-dots-vxone" src="assets/images/VXone_Air-num.jpg" alt="">
+          </div>
+      </div>
+      <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+            <!-- <ngx-gallery class="ngx-gallery" style="width: 110px; height: 38px; float: right;" [options]="galleryOptions" [images]="galleryImages" ></ngx-gallery> -->
+          </div>
+    </div>
+  </div>
+
+  <div class="operation-benefits">
+    <div class="row">
+      <div class="col-lg-6">
+      <div class="operation">
+        <p class="vxone-s-title">Operation</p>
+        <p class="text">1. The air is pulled on the top of the unit using a strong fan.</p>
+        <p class="text">2. The air goes though a long F9 filter which catches particles of size 1 - 10 µm.</p>
+        <p class="text">3. The air continues though a long UV-C chamber which sterilizes the smallest particles using UV-C radiation.</p>
+        <p class="text">4. Before existing the unit the air is filtered by an additional extended H13 HEPA filter which filters particles of size < 1 µm.</p>
+        <p class="text">5. The sterilized air exists the unit on the bottom sides.</p>
+      </div>
+    </div>
+      <div class="col-lg-6 benefits">
+      <div class="operation">
+        <p class="vxone-s-title">Benefits</p>
+        <p class="text">1. Completely sealed design enables UV-C Air sterilization to work in any environment where people are present.</p>
+        <p class="text">2. The multi-level filtering system outputs pathogen free air.</p>
+        <p class="text">3. Multi-speed settings enable rapid air sterilization when time is of an essence.</p>
+        <p class="text">4. Light aluminium design enables effortless movement .</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="information-section">
+    <hr class="new1">
+    <div class="row" (click)="openDialogA()">
+      <div class="col-9">
+        <p class="blog-title1">Technical Characteristics</p>
+      </div>
+      <div class="col-3">
+        <img class="arrow-down" src="assets/images/arrow-down.png">
+      </div>
+    </div>
+    <div class="content" id="{{'a'}}">
+    <div class="tech-char">
+      <div class="row">
+        <p class="col-8 tect-text" style="margin-bottom: 0;">Airflow (m3/h)</p>
+        <p class="col-4 tech-num" style="text-align: right; margin-bottom: 0;">960</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">UV-C power ( W ) </p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">440</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">Number of UV-C lamps</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">8</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">UV-C control ( on/off )</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">YES</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-6" style="margin-bottom: 0;">F9 filter dimens. (mm)</p>
+        <p class="col-6" style="text-align: right; margin-bottom: 0;">450x350x250</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-6" style="margin-bottom: 0;">HEPA filter dimens. (mm)</p>
+        <p class="col-6" style="text-align: right; margin-bottom: 0;">450x350x250</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">Width</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">565</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">Depth (mm)</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">565</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">Height (mm)</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">1713</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">Power supply (V)</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">230</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">Max. consumption (W)</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">550</p>
+      </div>
+      <hr>
+      <div class="row">
+        <p class="col-8" style="margin-bottom: 0;">Weight (kg)</p>
+        <p class="col-4" style="text-align: right; margin-bottom: 0;">30</p>
+      </div>
+      <!-- <hr> -->
+    </div>
+    </div>
+    <hr class="new1">
+    <div class="row" (click)="openDialogC()">
+      <div class="col-9">
+        <p class="blog-title1">Certifications</p>
+      </div>
+      <div class="col-3">
+        <img class="arrow-down" src="assets/images/arrow-down.png">
+      </div>
+    </div>
+    <div class="content" id="{{'c'}}">
+      <p>The VX-One Air is certified for use in the hospitality sector and critical government institutions. It's been tested by
+      the independent Slovenian Institute of Quality and Metrology for the following standards: EN 303 446-1 (55015), EN
+      60598-1:2015+A1, EN 60598-2-:2018, and EN 62471:2008. The test reports are available per request. The CE certification
+      is available <a href="https://uvphotons.com/datasheet/VXAIR2020121401-CE.pdf">here.</a></p>
+  </div>
+    <hr class="new1">
+  </div>
+
+  <div class="section-products">
+    <div class="row">
+      <div class="col-lg-6">
+        <a routerLink="/products/vxone" routerLinkActive="active">
+          <div class="pro-box-right">
+          <img class="lamp-img" src="assets/images/VX_OneS.png" alt="UV Lamp" >
+          </div>
+          <div class="pro-box-left">
+            <div class="prod">Product</div>
+            <div class="lamp-titles">VX ONE S</div>
+            <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-6 c-serias-margin">
+        <a routerLink="/products/lamps" fragment="x-serias-lamp" routerLinkActive="active" href="">
+          <div class="pro-box-right">
+          <img class="lamp-img" src="assets/images/X-35W.jpg" alt="UV Lamp" >
+          </div>
+          <div class="pro-box-left">
+            <div class="prod">Product</div>
+            <div class="lamp-titles">Lamps <br> Series</div>
+            <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog" id="stories">
+    <hr class="new1">
+    <div class="row">
+      <div class="col-12 blog-post">
+        <a href="https://uvphotons.com/stories/uvc-air-purifiers-everything-you-need-to-know" style="text-decoration: none; color: black;">
+          <div class="row">
+            <div class="col-9">
+              <p class="blog-data">18. Jan - Ljubljana</p>
+              <p class="blog-title">UVC Air Purifiers: Everything You Need to Know</p>
+            </div>
+            <div class="col-3 arrow" >
+              <span  style='font-size: 32px; color: #9000FF; font-weight: 200;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr class="new1">
+    <div class="row">
+      <div class="col-12 blog-post">
+        <a href="https://uvphotons.com/stories/uvc-kills-covid-19" style="text-decoration: none; color: black;">
+          <div class="row">
+            <div class="col-9">
+              <p class="blog-data">03. Jul - Ljubljana</p>
+              <p class="blog-title">UVC and COVID-19</p>
+            </div>
+            <div class="col-3 arrow" >
+              <span  style='font-size: 32px; color: #9000FF; font-weight: 200;'>&#8594;</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr class="new1">
+    <a routerLink="/stories"  routerLinkActive="active" href="#" style="text-decoration: none; color: black;">
+      <button type="button" class="btn-stories" >All Stories</button>
+    </a>
+  </div>
+</div>
+
+<jw-modal id="order-modal">
+  <app-ordermodal></app-ordermodal>
+  <!-- <button (click)="closeModal('order-modal');" class="btn-close">Close</button> -->
+</jw-modal>

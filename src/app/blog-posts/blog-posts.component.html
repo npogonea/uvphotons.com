@@ -1,0 +1,32 @@
+<div *ngIf="isLoaded" class="container">
+  <div class="row blog-posts">
+    <!-- <div class="col-md-12">
+      <img class="card-image" src={{blogPostShort.posts[0].feature_image}} alt="">
+      <div *ngIf="blogPostShort.posts[0].tags[0]" class="discription">{{blogPostShort.posts[0].tags[0].name}}</div>
+      <h2 class="title">{{blogPostShort.posts[0].title}}</h2>
+      <p *ngIf="blogPostShort.posts[0].meta_description" class="text">{{blogPostShort.posts[0].meta_description}}</p>
+      <p *ngIf="!blogPostShort.posts[0].meta_description" class="text">{{blogPostShort.posts[0].excerpt}}</p>
+    </div> -->
+    <div class="col-md-4" style="cursor: pointer;"
+    *ngFor="let blog of blogPostShort!.posts; index as i" [routerLink]="['/stories/',blog.slug]">
+      <img class="card-image" src={{blog.feature_image}} alt={{blog.title}}>
+      <!-- <div *ngFor="let tag of blog.tags" class="discription">{{tag.name}}</div> -->
+      <div *ngIf="blog.tags[0]" class="discription">{{blog.tags[0].name}}</div>
+      <div *ngIf="!blog.tags[0]" class="discription">NO TAGS</div>
+      <h2 class="title">{{blog.title}}</h2>
+      <p *ngIf="blog.meta_description" class="text">{{blog.meta_description}}</p>
+      <p *ngIf="!blog.meta_description" class="text">{{blog.excerpt}}</p>
+      <div style="margin-bottom: 20px;">
+        <div class="author-data">
+          <img class="avatar" [src]="blog.authors[0].profile_image" alt="">
+        </div>
+        <div class="author-data">
+          <p class="author-name"> {{blog.authors[0].name}}</p>
+          <p class="date">{{blog.created_at}}</p>
+        </div>
+      </div>
+      <!-- <span class="bull">•</span>
+      <p>{{blog.reading_time}}</p> -->
+    </div>
+  </div>
+</div>

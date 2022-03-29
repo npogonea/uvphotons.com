@@ -1,0 +1,99 @@
+@import url("../blog/blog.component.css");
+@import url("../x35w-lamp/x35w-lamp.component.css");
+@import url("../vxone-s/vxone-s.component.css");
+
+.show {
+  overflow: visible;
+  height: auto;
+}
+
+.touch-screen-img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.show-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.show-text {
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.tech-char {
+  margin: 50px 60px 0px 60px;
+}
+
+.operation-benefits {
+  margin: 0;
+  max-width: 1110px;
+  width: 100%;
+  padding: 0 100px 100px;
+}
+
+.operation {
+  background-color: #9000ff;
+  /* border: 2px solid #9000FF; */
+  padding: 15px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.vxone-screen-function {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding: 100px 100px 0px;
+}
+
+.operation p {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .store-img {
+    margin-bottom: 50px;
+  }
+  .benefits {
+    margin-top: 50px;
+  }
+  .tech-char {
+    margin: 50px 15px 0px 15px;
+  }
+  .vxone-screen-function {
+    padding: 80px 100px 0px;
+  }
+  .touch-screen-img {
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .operation-benefits {
+    padding: 0 40px 80px;
+  }
+  .vxone-screen-function {
+    padding: 80px 40px 0px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .operation-benefits {
+    padding: 0 15px 80px;
+  }
+  .vxone-screen-function {
+    padding: 80px 15px 0px;
+  }
+  .touch-screen-img {
+    width: 60%;
+    height: 100%;
+  }
+}

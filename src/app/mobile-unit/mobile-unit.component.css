@@ -1,0 +1,147 @@
+@import url("../x35w-lamp/x35w-lamp.component.css");
+
+.container {
+  line-height: 1.6;
+}
+
+.img-gradient:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 0px 4px 0px 80px;
+  background: linear-gradient(
+    90deg,
+    #000000cc 0%,
+    #00000099 20%,
+    #00000000 80%
+  );
+}
+
+.disc-title {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding: 0 100px;
+}
+
+#c-serias-lamp {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding: 100px 100px 0;
+}
+
+#vxone {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  padding: 100px 100px 0;
+}
+
+.lamps-discription {
+  font-size: 48px;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
+.product-title-X {
+  font-size: 48px;
+  color: #9000ff;
+  font-weight: 600;
+}
+
+.product-text-X {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 80px;
+}
+
+.product-title-C {
+  font-size: 48px;
+  color: #9000ff;
+  font-weight: 600;
+}
+
+.product-text-C {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 992px) {
+  .disc-title {
+    padding: 0 100px;
+  }
+  .lamps-discription {
+    font-size: 36px;
+  }
+  #vxone {
+    padding: 80px 100px 0;
+  }
+  #c-serias-lamp {
+    padding: 80px 100px 0;
+  }
+  .product-title-X {
+    font-size: 36px;
+    padding-top: 50px;
+  }
+  .product-text-X {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .product-title-C {
+    font-size: 36px;
+  }
+  .product-text-C {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+  }
+  .dots-botom {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .disc-title {
+    padding: 0 40px;
+  }
+  #vxone {
+    padding: 80px 40px 0;
+  }
+  #c-serias-lamp {
+    padding: 80px 40px 0;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .disc-title {
+    padding: 0 15px;
+  }
+  .lamps-discription {
+    font-size: 28px;
+  }
+  #vxone {
+    padding: 80px 15px 0;
+  }
+  #c-serias-lamp {
+    padding: 80px 15px 0;
+  }
+  .product-title-X {
+    font-size: 28px;
+  }
+
+  .product-text-X {
+    font-size: 16px;
+  }
+  .product-title-C {
+    font-size: 28px;
+  }
+  .product-text-C {
+    font-size: 16px;
+  }
+}

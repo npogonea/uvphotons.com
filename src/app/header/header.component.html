@@ -1,0 +1,67 @@
+<div class="web-navbar" style="background-color: black; height: 75px; padding-top: 10px;">
+  <div >
+    <nav style="font-family: 'Inter', sans-serif;" class="navbar navbar-expand-lg navbar-light ">
+
+      <a routerLink="/" routerLinkActive="active" href="">
+        <img style="margin-left: 10px;" width="250px" src="assets/images/logo-white.png" alt="">
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span style="width: 24px; height: 24px;" class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse show" style="margin-top: 10px;" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class=" nav-item horizontal-line">
+            <a ></a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #ffffff;" class="nav-link" routerLink="/products/mobile-units" fragment="vxone" routerLinkActive="active" href="#">Mobile Units</a>
+          </li>
+          <li class="nav-item nav-right">
+            <a style="color: #ffffff;" class="nav-link" routerLink="/products/lamps" fragment="x-serias-lamp" routerLinkActive="active"  href="">Lamps</a>
+          </li>
+        </ul>
+          <ul class="form-inline my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-link-right" routerLink="/" fragment="about" routerLinkActive="active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-right" routerLink="/stories" routerLinkActive="active" href="#">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-right" routerLink="/" fragment="footer" routerLinkActive="active" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-bar" style="float: right;">
+          <button  class="button button1" (click)="useLanguage('si')">si</button>
+        <button class="button button1" (click)="useLanguage('ru')">ru</button>
+        <button class="button button1" (click)="useLanguage('en')">en</button>
+        </div>
+      </div>
+  </nav>
+  </div>
+</div>
+
+<div >
+  <div class="mobile-navbar" style="background-color: black; height: 75px;">
+      <div class="position-left">
+        <a routerLink="/" routerLinkActive="active" href="">
+        <img style="width: 220px;" src="assets/images/logo-white.png" alt=""></a>
+      </div>
+      <div class="position-right">
+        <div class="dropdown">
+          <div class="dropmenu">
+            <img src="assets/images/menu.png" alt="">
+          </div>
+          <div class="dropdown-content">
+            <a routerLink="/products/mobile-units" fragment="vxone" routerLinkActive="active" href="#"><p>Mobile Units</p></a>
+            <a routerLink="/products/lamps" fragment="x-serias-lamp" routerLinkActive="active" href="#"><p>Lamps</p></a>
+            <a routerLink="/" fragment="about" routerLinkActive="active" href="#"><p>About</p></a>
+            <a routerLink="/" fragment="stories" routerLinkActive="active" href="#"><p>Stories</p></a>
+            <a routerLink="/" fragment="footer" routerLinkActive="active" href="#"><p>Contact</p></a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
