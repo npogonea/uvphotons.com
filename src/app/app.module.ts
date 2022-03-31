@@ -41,6 +41,7 @@ import { CertificateComponent } from './airlight/certificate/certificate.compone
 import { AirlightAndroidComponent } from './airlight/airlight-android/airlight-android.component';
 import { AirlightIosComponent } from './airlight/airlight-ios/airlight-ios.component'
 import 'hammerjs';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -95,6 +96,7 @@ export function HttpLoaderFactory(http: HttpClient) {
           deps: [HttpClient]
       }
   }),
+    ScullyLibModule,
   //   TranslateModule.forRoot({
   //     loader: {
   //         provide: TranslateModule,
