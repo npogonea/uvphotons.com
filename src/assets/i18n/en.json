@@ -14,25 +14,33 @@
         "pod-title-Air": "Air sterilization",
         "pod-title-S": "Surface sterilization",
         "pod-title-X": "Handheld lampstact",
-        "pod-title-C": "Room sterilization"
+        "pod-title-C": "Room sterilization",
+        "x-series": "X-Series",
+        "lamps": "Lamps",
+        "unit": "Unit",
+        "c-series": "C-Series"
+
+
     },
 
     "m-units-page": {
-        "header-m-title": "Industrial UV-C Mobile Units",
+        "header-m-title": "Industrial UV-C",
         "title": "Rapid disinfection of surfaces and air for offices, hospitals, schools, shops and more.",
-        "one-series": "VX-One Series"
+        "one-series": "VX-One Series",
+        "oneAir-text": "Mobile UV-C disinfection for surface and air sterilization. Aluminum based design for maximum UV-C exposure and light movement. Made in EU."
     },
     "ones-page": {
-        "header-text": "The VX-One S a unique and powerful UV-C mobile disinfection solution.",
+        "box-text": "The VX-One S a unique and powerful UV-C mobile disinfection solution.",
         "title": "Efective, Smart and Mobile",
         "auto-meas": "Automatic room measurement",
         "auto-meas-text": "Advanced sonar sensors automatically measure the room and calculate the optimal desinfection cycle.",
-        "safe": "Automatic room measurement",
+        "safe": "Safe",
         "safe-text": "Advanced Infrared sensors detect 92 unique points of movement and instantly turn off radiation.",
         "powerful": "Powerful",
         "power-text": "Up to 880W UVC radiation disinfects a room of 120m2 in 10 to 15 minutes.",
         "extendable": "Extendable",
         "extend-text": "Extends from 1.6 to 2.6 meters length using hydraulics to reach surfaces beyond shadows.",
+        "uvcMeasur": "UV-C measurements",
         "exposure-time": "UVC Exposure Time",
         "exposure-title": "Each lamp can radiate over 30m2, enabling a 120m2 sterilization in 10 to 15 minutes.",
         "tablet": "Tablet",
@@ -52,12 +60,13 @@
         "uv-safety": "About UV (UV-C) Safety"
     },
     "oneAir-page": {
-        "header-text": "Sensor controlled, UVC and HEPA powered air sterilization.",
+        "box-text": "Sensor controlled, UVC and HEPA powered air sterilization.",
         "title": "High precision air quality sensors",
         "auto-oper": "Automatic operation",
         "auto-oper-text": "Automated and manual operation mode. The automated mode adjusts the filtering sensitivity based on high precision air sensors readings.",
         "sensors": "Advanced sensors",
-        "sensors-text": "The unit fuses volatile organic compounds (VOCs) sensors with advanced VOC Index algorithms and MCERTS-certified fine particulate matter PM2.5 and PM10 sensors, providing a real-time picture of room AIR quality.",
+        "sensors-text": "The unit fuses volatile organic compounds (VOCs) sensors with advanced VOC Index algorithms and MCERTS-certified fine particulate matter PM2.5 and PM10 sensors, providing a real-time picture of room AIR quality",
+        "sensors-hiden-text": "and PM10 sensors, providing a real-time picture of room AIR quality.",
         "hide": "hide",
         "silent-operation": "Silent operation",
         "silent-oper-text": "A premium aluminum vibration-free ventilator provides silent ( 45db* ) operation.",
@@ -82,29 +91,30 @@
         "benefits2": "2. The multi-level filtering system outputs pathogen free air.",
         "benefits3": "3. Multi-speed settings enable rapid air sterilization when time is of an essence.",
         "benefits4": "4. Light aluminium design enables effortless movement .",
-        "tech-charact": "Technical Characteristics.",
-        "tech-Airflow": "Airflow (m3/h)",
-        "tech-power": "UV-C power ( W )",
-        "tech-number": "Number of UV-C lamps",
-        "tech-control": "UV-C control ( on/off )",
-        "tech-filter": "F9 filter dimens. (mm)",
-        "tech-HEPA": "HEPA filter dimens. (mm)",
-        "tech-Width": "Width",
-        "tech-Depth": "Depth (mm)",
-        "tech-Height": "Height (mm)",
-        "tech-supply": "Power supply (V)",
-        "tech-consum": "Max. consumption (W)",
-        "tech-Weight": "Weight (kg)",
+        "tech-charact": "Technical Characteristics",
+        "techAirflow": "Airflow (m3/h)",
+        "techPower": "UV-C power ( W )",
+        "techNumber": "Number of UV-C lamps",
+        "techControl": "UV-C control ( on/off )",
+        "techFilter": "F9 filter dimens. (mm)",
+        "techHEPA": "HEPA filter dimens. (mm)",
+        "techWidth": "Width",
+        "techDepth": "Depth (mm)",
+        "techHeight": "Height (mm)",
+        "techSupply": "Power supply (V)",
+        "techConsum": "Max. consumption (W)",
+        "techWeight": "Weight (kg)",
         "certifications": "Certifications",
         "certif-text": "The VX-One Air is certified for use in the hospitality sector and critical government institutions. It's been tested by the independent Slovenian Institute of Quality and Metrology for the following standards: EN 303 446-1 (55015), EN 60598-1:2015+A1, EN 60598-2-:2018, and EN 62471:2008. The test reports are available per request. The CE certification is available",
         "here": "here.",
-        "lamps-series": "Lamps Series",
+        "series": "Series",
         "uv-air-purifiers": "UVC Air Purifiers: Everything You Need to Know",
         "uvc-covid": "UVC and COVID-19",
         "all-stories": "All Stories"
     },
     "x35-page": {
-        "header-text": "Compact yet powerfull UV-CLamp",
+        "headerText1": "Compact yet",
+        "headerText2": " powerfull UV-C",
         "header-text-box": "Powerful compact handheld UV-C lamp.",
         "title": "Slim, light and powerful",
         "radiation": "Strong UVC radiation",
@@ -122,7 +132,9 @@
         "uv-safety": "About UV (UV-C) Safety"
     },
     "xl36-page": {
-        "header-text": "Wide UV-C radiation in compact size.",
+        "headerText1": "Wide UV-C",
+        "headerText2": "radiation in",
+        "headerText3": "compact size.",
         "header-text-box": "For every enviroment. Wide UV-C radiation yet compact.",
         "title": "Broad radiation, strong UV-C output, wide application.",
         "radiation": "Strong UVC radiation",
@@ -140,8 +152,10 @@
         "uv-safety": "About UV (UV-C) Safety"
     },
     "xxl55-page": {
-        "header-text": "The hybrid UV-C lamp, handheld or mountable.",
-        "header-text-box": "Poweful mountable or handheld lamp with wide UV-C radiation.",
+        "headerText1": "The hybrid UV-C",
+        "headerText2": "lamp, handheld",
+        "headerText3": "or mountable.",
+        "headerTbox": "Poweful mountable or handheld lamp with wide UV-C radiation.",
         "title": "Wide ranging radiation, powerful, unlimited options.",
         "radiation": "Strong UVC radiation",
         "radiation-text": "Powerful 55W High Output UVC lamps combined with reflective panel for increased radiation.",
@@ -157,8 +171,10 @@
         "uv-safety": "About UV (UV-C) Safety"
     },
     "xl70-page": {
-        "header-text": "Extreme UV-C radiation at your fingertips.",
-        "header-text-box": "Very powerful UV-C radiation inside a compact body.",
+        "headerText1": "Extreme UV-C",
+        "headerText2": "radiation at",
+        "headerText3": "your fingertips.",
+        "headerTbox": "Very powerful UV-C radiation inside a compact body.",
         "title": "Powerful, compact, universal",
         "radiation": "Strong UVC radiation",
         "radiation-text": "Two powerful 35W High Output UVC lamps combined with reflective panel for increased radiation.",
@@ -174,8 +190,9 @@
         "uv-safety": "About UV (UV-C) Safety"
     },
     "c110-page": {
-        "header-text": "Ulitmate UV-C radiation",
-        "header-text-box": "Mountable UV-C lamp powered by two High Output 55W UV-C lamps.",
+        "headerText1": "Ulitmate UV-C",
+        "headerText2": "radiation",
+        "headerTbox": "Mountable UV-C lamp powered by two High Output 55W UV-C lamps.",
         "title": "Up to 25m2 of powerful radiation.",
         "radiation": "Extreme UVC radiation",
         "radiation-text": "Two powerful 55W High Output UVC lamps combined with special reflective aluminum.",
@@ -190,8 +207,7 @@
         "uv-foodborne": "UV-C and Foodborne Pathogens",
         "uv-safety": "About UV (UV-C) Safety"
     },
-    "virus": {
-        "virus": "Virus",
+    "viruses": {
         "SARS-coronavirus": "SARS coronavirus",
         "influenza": "Influenza",
         "rhinovirus": "Rhinovirus",
@@ -209,7 +225,7 @@
     },
 
     "lamps-page": {
-        "header-lamps-title": "UV-C Industrial Lamps",
+        "header-title": "UV-C Industrial",
         "title": "Disinfection residential and commercial buildings, hospitals, schools, shops, warehouses, and more.",
         "x-series": "X-Series Lamps",
         "x-s-title": "Universal handheld or mounted UVC lamps. Made from stainless steel, a special reflective unit, protective casing, and a heat absorbent compartment.",
@@ -238,6 +254,27 @@
     "about": "About",
     "order": "Order",
     "datasheet": "Datasheet",
-    "all-stories": "All Stories"
- 
+    "all-stories": "All Stories",
+    "more": "More Info",
+    "mobile-units": "Mobile Units",
+    "lamps": "Lamps",
+    "series": "Series",
+    "lamp": "Lamp",
+    "virus": "Virus",
+    "applicationTitle": "application comming soon!",
+    "request": "Order request",
+    "requestTitle": "Please provide your contacts below and our sales team will reach out to you in the next 24h.",
+    "Name": "Your Name",
+    "Email": "Email",
+    "Phone": "Phone (optional)",
+    "Message": "Message (optional)",
+    "Submit": "Submit",
+    "companyNumber": "For any question contact our call center:",
+    "thank": "THANK YOU",
+    "costumerMessage": "Your order request has been submited. Our sales team will contact you in the next 24h.",
+    "EnterName": "Enter your name",
+    "EnterEmail": "Enter your email addess",
+    "EnterPhone": "Enter your phone number",
+    "EnterMessage": "Your message here..."
+
 }

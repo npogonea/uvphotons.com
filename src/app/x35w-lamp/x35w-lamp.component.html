@@ -7,15 +7,15 @@
     <div class="container">
     <div class="intro-text">
       <div class="row">
-          <p class="uvphotons-title1">Compact yet <br> powerfull UV-C <br> Lamp</p>
+          <p class="uvphotons-title1" translate>x35-page.headerText1 <br> {{'x35-page.headerText2' | translate }} <br> {{'lamp' | translate }}</p>
       </div>
       <div class="on-top">
         <div class="row">
           <div class="col-lg-6">
             <div class="window">
-              <p class="col-12 vxones-title1">X-35W Lamp</p>
-              <p class="col-12 vxones-text1">Powerful compact handheld UV-C lamp.</p>
-              <button type="button" class="btn btn-order" (click)="openModal('order-modal')">Order</button>
+              <p class="col-12 vxones-title1">X-35W {{'lamp' | translate }}</p>
+              <p class="col-12 vxones-text1" translate>x35-page.header-text-box</p>
+              <button type="button" class="btn btn-order" (click)="openModal('order-modal')" translate>order</button>
             </div>
             </div>
             <div class="col-lg-6 decor-dots1">
@@ -32,16 +32,16 @@
   <div class="lamp-function">
     <div class="row">
       <div class="col-lg-6">
-        <p class="x-lamp-title">Slim, light and powerful</p>
-        <p class="x-title"><span class="numbers">1</span>Strong UVC radiation</p>
-        <p class="x-text">Powerful 35W High Output UVC lamp combined with reflective panel for increased radiation.</p>
-        <p class="x-title"><span class="numbers">2</span>Designed to last</p>
-        <p class="x-text">Made from premium stainless steel.</p>
-        <p class="x-title"><span class="numbers">3</span>Ergonomic design</p>
-        <p class="x-text">Slim body combined with ergonomic handles.</p>
-        <p class="x-title"><span class="numbers">4</span>Advanced power</p>
-        <p class="x-text">Optimal power ballast engineered for UVC requirements.</p>
-        <a href="https://uvphotons.com/datasheet/uvphotons-x35.pdf"><button type="button" class="btn btn-datasheet">Datasheet</button></a>
+        <p class="x-lamp-title" translate>x35-page.title</p>
+        <p class="x-title"><span class="numbers">1</span>{{'x35-page.radiation' | translate }}</p>
+        <p class="x-text" translate>x35-page.radiation-text</p>
+        <p class="x-title"><span class="numbers">2</span>{{'x35-page.design' | translate }}</p>
+        <p class="x-text" translate>x35-page.design-text</p>
+        <p class="x-title"><span class="numbers">3</span>{{'x35-page.ergonomic' | translate }}</p>
+        <p class="x-text" translate>x35-page.ergonomic-text</p>
+        <p class="x-title"><span class="numbers">4</span>{{'x35-page.power' | translate }}</p>
+        <p class="x-text" translate>x35-page.power-text</p>
+        <a href="https://uvphotons.com/datasheet/uvphotons-x35.pdf"><button type="button" class="btn btn-datasheet" translate>datasheet</button></a>
       </div>
       <div class="col-lg-6">
         <div class="x-lamp-decoraiton">
@@ -56,8 +56,8 @@
       <div class="col-lg-8">
       <div class="exposure-section1">
           <div class="col-lg-12">
-            <p class="exposure-time">UVC Exposure Time</p>
-            <p class="exposure-title">Each lamp can radiate over 30m2, enabling a 120m2 sterilization in 10 to 15 minutes.</p>
+            <p class="exposure-time" translate>x35-page.exposure-time</p>
+            <p class="exposure-title" translate>x35-page.exposure-title</p>
           </div>
           <div class="col-12 illustration1">
           <img class="" src="assets/images/Illustration-range-lamp.png" alt="">
@@ -78,7 +78,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: black;">Virus</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: black;" translate>virus</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -97,7 +97,7 @@
       </div>
       <div class="col-lg-12 viruses-lines" style="height: 65px;">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">SARS coronavirus</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.SARS-coronavirus</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -116,7 +116,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Influenza</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.influenza</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -135,7 +135,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Rhinovirus</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.rhinovirus</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -154,7 +154,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Echovirus</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.echovirus</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -173,7 +173,7 @@
       </div>
       <div class="col-lg-12 viruses-lines" style="height: 65px;">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Marburg, Ebola virus</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.marburg-ebola</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -192,7 +192,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Diphtheriae</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.diphtheriae</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -211,7 +211,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Hepatitis</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.hepatitis</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -230,7 +230,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Measles</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.measles</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -249,7 +249,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Mumps</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.mumps</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -268,7 +268,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Poliovirus</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.poliovirus</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -287,7 +287,7 @@
       </div>
       <div class="col-lg-12 viruses-lines">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Rubella</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.rubella</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -306,7 +306,7 @@
       </div>
       <div class="col-lg-12 viruses-lines" style="height: 65px;">
         <div class="virus-name">
-          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;">Hantaan virus</p></div>
+          <div class="datasheet-time"><p style="font-weight: 600; color: 575756;" translate>viruses.hantaan</p></div>
         </div>
         <div class="section-right">
           <div class="virus-name">
@@ -324,7 +324,7 @@
         </div>
       </div>
       <div class="col-lg-12 viruses-lines" style="height: 25px;">
-        <div class="virus-name"><p style="font-weight: 200; color: #575756; width: 100%; font-size: 12px;">Time in seconds</p>
+        <div class="virus-name"><p style="font-weight: 200; color: #575756; width: 100%; font-size: 12px;" translate>viruses.time</p>
         </div>
       </div>
     </div>
@@ -342,8 +342,8 @@
           <img class="lamp-img" src="assets/images/XL-36W.png" alt="UV Lamp" >
           </div>
           <div class="pro-box-left">
-            <div class="prod">Product</div>
-            <div class="lamp-titles">XL-36W Lamp</div>
+            <div class="prod" translate>product</div>
+            <div class="lamp-titles">XL-36W {{'lamp' | translate }}</div>
             <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
             </div>
           </div>
@@ -355,8 +355,8 @@
           <img class="lamp-img" src="assets/images/XXL-55W.png" alt="UV Lamp" >
           </div>
           <div class="pro-box-left">
-            <div class="prod">Product</div>
-            <div class="lamp-titles">XXL-55W Lamp</div>
+            <div class="prod" translate>product</div>
+            <div class="lamp-titles">XXL-55W {{'lamp' | translate }}</div>
             <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
             </div>
           </div>
@@ -368,8 +368,8 @@
           <img class="lamp-img" src="assets/images/XXL-55W.png" alt="UV Lamp" >
           </div>
           <div class="pro-box-left">
-            <div class="prod">Product</div>
-            <div class="lamp-titles">XL-70W Lamp</div>
+            <div class="prod" translate>product</div>
+            <div class="lamp-titles">XL-70W {{'lamp' | translate }}</div>
             <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
             </div>
           </div>
@@ -381,8 +381,8 @@
           <img class="lamp-img" src="assets/images/C-110W.png" alt="UV Lamp" >
           </div>
           <div class="pro-box-left">
-            <div class="prod">Product</div>
-            <div class="lamp-titles">C-110W Lamp</div>
+            <div class="prod" translate>product</div>
+            <div class="lamp-titles">C-110W {{'lamp' | translate }}</div>
             <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
             </div>
           </div>
@@ -394,8 +394,8 @@
           <img class="lamp-img" src="assets/images/VX_OneS.png" alt="UV Lamp" >
           </div>
           <div class="pro-box-left">
-            <div class="prod">Product</div>
-            <div class="lamp-titles">Mobile Units</div>
+            <div class="prod" translate>product</div>
+            <div class="lamp-titles">{{'mobile-units' | translate }}</div>
             <div class="lamp-arrow"><span style='font-size: 32px;'>&#8594;</span>
             </div>
           </div>
@@ -412,7 +412,7 @@
           <div class="row">
             <div class="col-9">
               <p class="blog-data">3. Juny - Ljubljana</p>
-              <p class="blog-title">UV-C and Covid-19 virus situation</p>
+              <p class="blog-title" translate>x35-page.uv-covid</p>
             </div>
             <div class="col-3 arrow" >
               <span  style='font-size: 32px; color: #9000FF; font-weight: 200;'>&#8594;</span>
@@ -428,7 +428,7 @@
           <div class="row">
             <div class="col-9">
               <p class="blog-data">31. May - Ljubljana</p>
-              <p class="blog-title">About UV (UV-C) Safety</p>
+              <p class="blog-title" translate>x35-page.uv-safety</p>
             </div>
             <div class="col-3 arrow" >
               <span  style='font-size: 32px; color: #9000FF; font-weight: 200;'>&#8594;</span>
@@ -439,7 +439,7 @@
     </div>
     <hr class="new1">
     <a routerLink="/stories"  routerLinkActive="active" href="#" style="text-decoration: none; color: black;">
-      <button type="button" class="btn-stories" >All Stories</button>
+      <button type="button" class="btn-stories" translate>all-stories</button>
     </a>
   </div>
 </div>

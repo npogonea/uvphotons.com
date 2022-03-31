@@ -60,22 +60,13 @@ export class VxoneSComponent implements OnInit {
       }
     });
 
-    this.galleryOptions =
-    // [
-    //   {
-    //     thumbnails: false
-    //   },
-    //   { breakpoint: 24,
-    //     width: '24px',
-    //     height: '24px'
-    //   }
-    // ];
-
-  [
+    this.galleryOptions =[
     {
       width: '600px',
       height: '400px',
       thumbnailsColumns: 4,
+      arrowPrevIcon: 'fa fa-chevron-left',
+      arrowNextIcon: 'fa fa-chevron-right',
       imageAnimation: NgxGalleryAnimation.Slide
     },
     // max-width 800

@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   display = 'none';
 
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('si');
+    translate.setDefaultLang('en');
   }
 
   useLanguage(language: string) {

@@ -5,6 +5,10 @@
   line-height: 1.6;
 }
 
+/* .mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
+  transform: none !important;
+}  */
+
 .intro-text1 {
   margin: 0 auto;
   max-width: 1110px;

@@ -63,6 +63,8 @@ export class VxoneAirComponent implements OnInit {
         width: '600px',
         height: '400px',
         thumbnailsColumns: 5,
+        arrowPrevIcon: 'fa fa-chevron-left',
+        arrowNextIcon: 'fa fa-chevron-right',
         imageAnimation: NgxGalleryAnimation.Slide
       },
       // max-width 800

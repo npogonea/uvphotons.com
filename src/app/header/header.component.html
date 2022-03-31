@@ -1,9 +1,9 @@
-<div class="web-navbar" style="background-color: black; height: 75px; padding-top: 10px;">
+<div class="web-navbar">
   <div >
     <nav style="font-family: 'Inter', sans-serif;" class="navbar navbar-expand-lg navbar-light ">
 
       <a routerLink="/" routerLinkActive="active" href="">
-        <img style="margin-left: 10px;" width="250px" src="assets/images/logo-white.png" alt="">
+        <img style="margin-left: 10px;" width="250px" src="assets/images/logo.png" alt="">
       </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span style="width: 24px; height: 24px;" class="navbar-toggler-icon"></span>
@@ -15,43 +15,43 @@
             <a ></a>
           </li>
           <li class="nav-item">
-            <a style="color: #ffffff;" class="nav-link" routerLink="/products/mobile-units" fragment="vxone" routerLinkActive="active" href="#">Mobile Units</a>
+            <a style="color: #000000;" class="nav-link" routerLink="/products/mobile-units" fragment="vxone" routerLinkActive="active" href="#" translate>nav.mobile-units</a>
           </li>
           <li class="nav-item nav-right">
-            <a style="color: #ffffff;" class="nav-link" routerLink="/products/lamps" fragment="x-serias-lamp" routerLinkActive="active"  href="">Lamps</a>
+            <a style="color: #000000;" class="nav-link" routerLink="/products/lamps" fragment="x-serias-lamp" routerLinkActive="active"  href="" translate>nav.lamps</a>
           </li>
         </ul>
           <ul class="form-inline my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link nav-link-right" routerLink="/" fragment="about" routerLinkActive="active" href="#">About</a>
+            <a class="nav-link nav-link-right" routerLink="/" fragment="about" routerLinkActive="active" href="#" translate>nav.about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-right" routerLink="/stories" routerLinkActive="active" href="#">Stories</a>
+            <a class="nav-link nav-link-right" routerLink="/stories" routerLinkActive="active" href="#" translate>nav.stories</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-right" routerLink="/" fragment="footer" routerLinkActive="active" href="#">Contact</a>
+            <a class="nav-link nav-link-right" routerLink="/" fragment="footer" routerLinkActive="active" href="#" translate>nav.contact</a>
           </li>
         </ul>
-        <div class="nav-bar" style="float: right;">
-          <button  class="button button1" (click)="useLanguage('si')">si</button>
-        <button class="button button1" (click)="useLanguage('ru')">ru</button>
-        <button class="button button1" (click)="useLanguage('en')">en</button>
-        </div>
+        <!-- <div class="nav-bar" style="float: right;">
+          <button class=" btn-lang" (click)="useLanguage('en')">en</button>
+          <button  class=" btn-lang" (click)="useLanguage('si')">si</button>
+          <button class=" btn-lang" (click)="useLanguage('ru')">de</button>
+        </div> -->
       </div>
   </nav>
   </div>
 </div>
 
 <div >
-  <div class="mobile-navbar" style="background-color: black; height: 75px;">
+  <div class="mobile-navbar">
       <div class="position-left">
         <a routerLink="/" routerLinkActive="active" href="">
-        <img style="width: 220px;" src="assets/images/logo-white.png" alt=""></a>
+        <img style="width: 220px;" src="assets/images/logo.png" alt=""></a>
       </div>
-      <div class="position-right">
+      <div class="position-right"> 
         <div class="dropdown">
           <div class="dropmenu">
-            <img src="assets/images/menu.png" alt="">
+            <img src="assets/images/menu.png" style="margin-bottom: 20px;" alt="">
           </div>
           <div class="dropdown-content">
             <a routerLink="/products/mobile-units" fragment="vxone" routerLinkActive="active" href="#"><p>Mobile Units</p></a>

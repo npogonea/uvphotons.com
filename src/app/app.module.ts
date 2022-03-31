@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { GoogleTagManagerModule } from 'angular-google-tag-manager';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import {TranslateModule} from '@ngx-translate/core';
-// import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+
+import { RouterModule } from '@angular/router';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
-import { RouterModule } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -32,9 +32,15 @@ import { Xl70wLampComponent } from './xl70w-lamp/xl70w-lamp.component';
 import { Xxl55wLampComponent } from './xxl55w-lamp/xxl55w-lamp.component';
 import { HttpClient, HttpClientModule} from '@angular/common/http';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+
 import { OrdermodalComponent } from './modal/ordermodal/ordermodal.component'
 
-import { PostComponent } from './blog-posts/post/post.component'
+import { PostComponent } from './blog-posts/post/post.component';
+import { AirlightComponent } from './airlight/airlight.component';
+import { CertificateComponent } from './airlight/certificate/certificate.component';
+import { AirlightAndroidComponent } from './airlight/airlight-android/airlight-android.component';
+import { AirlightIosComponent } from './airlight/airlight-ios/airlight-ios.component'
+import 'hammerjs';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -63,7 +69,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     Xl36wLampComponent,
     Xl70wLampComponent,
     Xxl55wLampComponent,
-    PostComponent
+    PostComponent,
+    AirlightComponent,
+    CertificateComponent,
+    AirlightAndroidComponent,
+    AirlightIosComponent
   ],
   imports: [
     RouterModule,
@@ -101,3 +111,4 @@ export class AppModule { }
 // export function HttpLoaderFactory(http: HttpClient) {
 //   return new TranslateHttpLoader(http);
 // }
+

@@ -6,7 +6,7 @@ import {NgxGalleryAnimation} from '@kolkov/ngx-gallery';
 import { GoogleTagManagerService } from 'angular-google-tag-manager';
 import { NavigationEnd, Router } from '@angular/router';
 
-// import 'hammerjs';
+import 'hammerjs';
 
 import { Title, Meta } from '@angular/platform-browser';
 

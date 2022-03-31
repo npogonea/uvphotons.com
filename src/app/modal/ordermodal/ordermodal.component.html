@@ -2,38 +2,38 @@
 <div (click)="closeModal()" style="float: right"><i class="fa fa-times" style="font-size: 28px; font-weight: 200px; z-index: 10;"></i></div>
 <form class="contact100-form validate-form">
     <span class="contact100-form-title">
-        Order request
-        <p class="subtitle">Please provide your contacts below and our sales team will reach out to you in the next 24h.</p>
+        {{'request' | translate}}
+        <p class="subtitle">{{'requestTitle' | translate}}</p>
     </span>
 
     <div class="wrap-input100 rs1-wrap-input100 validate-input">
-        <span class="label-input100">Your Name</span>
-        <input class="input100" type="text" name="name" [(ngModel)]="name" placeholder="Enter your name" required>
+        <span class="label-input100">{{'Name' | translate}}</span>
+        <input class="input100" type="text" name="name" [(ngModel)]="name" placeholder="{{'EnterName' | translate}}" required>
         <span class="focus-input100"></span>
     </div>
 
     <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-        <span class="label-input100">Email</span>
-        <input class="input100" type="text" name="email" [(ngModel)]="email" placeholder="Enter your email addess" required>
+        <span class="label-input100">{{'Email' | translate}}</span>
+        <input class="input100" type="text" name="email" [(ngModel)]="email" placeholder="{{'EnterEmail' | translate}}" required>
         <span class="focus-input100"></span>
     </div>
 
     <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Phone number">
-        <span class="label-input100">Phone (optional)</span>
-        <input class="input100" type="text" name="phone" [(ngModel)]="phone" placeholder="Enter your phone number">
+        <span class="label-input100">{{'Phone' | translate}}</span>
+        <input class="input100" type="text" name="phone" [(ngModel)]="phone" placeholder="{{'EnterPhone' | translate}}">
         <span class="focus-input100"></span>
     </div>
 
     <div class="wrap-input100 validate-input" data-validate="Message is required">
-        <span class="label-input100">Message (optional)</span>
-        <textarea class="input100" name="message" [(ngModel)]="msg" placeholder="Your message here..."></textarea>
+        <span class="label-input100">{{'Message' | translate}}</span>
+        <textarea class="input100" name="message" [(ngModel)]="msg" placeholder="{{'EnterMessage' | translate}}"></textarea>
         <span class="focus-input100"></span>
     </div>
 
     <div class="container-contact100-form-btn">
         <button class="btn-stories" (click)="submitContactForm()">
             <span>
-                Submit
+                {{'Submit' | translate}}
                 <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
             </span>
         </button>
@@ -43,14 +43,14 @@
     </div>
 </form>
 <span class="contact100-more">
-    For any question contact our call center: <span class="contact100-more-highlight">+386 69 920-544</span>
+    {{'companyNumber' | translate}} <span class="contact100-more-highlight">+386 69 920-544</span>
 </span>
 </div>
 
 <div *ngIf="submited">
 <div (click)="closeModal()" style="float: right"><i class="fa fa-times" style="font-size: 28px; font-weight: 200px; z-index: 10;"></i></div>
-<h1>THANK YOU</h1>
+<h1>{{'thank' | translate}}</h1>
 <br>
-<p>Your order request has been submited. Our sales team will contact you in the next 24h.</p>
-<p>Feel free to reach out over phone at <u>+386 69 920-544.</u></p>
+<p>{{'costumerMessage' | translate}}</p>
+<p>{{'costumerMessage1' | translate}} <u>+386 69 920-544.</u></p>
 </div>
