@@ -37,7 +37,6 @@ import { OrdermodalComponent } from './modal/ordermodal/ordermodal.component'
 
 import { PostComponent } from './blog-posts/post/post.component';
 import { AirlightComponent } from './airlight/airlight.component';
-import { CertificateComponent } from './airlight/certificate/certificate.component';
 import { AirlightAndroidComponent } from './airlight/airlight-android/airlight-android.component';
 import { AirlightIosComponent } from './airlight/airlight-ios/airlight-ios.component'
 import 'hammerjs';
@@ -72,7 +71,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     Xxl55wLampComponent,
     PostComponent,
     AirlightComponent,
-    CertificateComponent,
     AirlightAndroidComponent,
     AirlightIosComponent
   ],

@@ -41,6 +41,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
+#deploy
+deploy.tar.gz
+
 scully.log
 scullyStats.json
 .scully

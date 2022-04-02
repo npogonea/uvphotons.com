@@ -13,7 +13,6 @@ import { BlogPostsComponent } from './blog-posts/blog-posts.component';
 import { PostComponent } from './blog-posts/post/post.component'
 import { VxoneAirComponent } from './vxone-air/vxone-air.component';
 import { VxoneSComponent } from './vxone-s/vxone-s.component';
-import { CertificateComponent } from './airlight/certificate/certificate.component';
 import { AirlightAndroidComponent } from './airlight/airlight-android/airlight-android.component';
 import { AirlightIosComponent } from './airlight/airlight-ios/airlight-ios.component';
 
@@ -31,8 +30,6 @@ const appRoutes: Routes = [
   { path: 'products/c110w', component: C110wLampComponent },
   { path: 'stories', component: BlogPostsComponent },
   { path: 'stories/:slug', component: PostComponent },
-  // { path: 'products/airlight/certificate', component: CertificateComponent },
-  { path: 'airlight/certificate', component: CertificateComponent },
   { path: 'airlight/android', component: AirlightAndroidComponent },
   { path: 'airlight/ios', component: AirlightIosComponent },
 
