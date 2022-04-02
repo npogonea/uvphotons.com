@@ -17,11 +17,7 @@
     "@angular/forms": "~13.3.0",
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
-<<<<<<< HEAD
-    "@angular/platform-server": "^12",
-=======
     "@angular/platform-server": "~13.3.0",
->>>>>>> 8fcd53c817193e16932da57cc6be6144be8fdd84
     "@angular/router": "~13.3.0",
     "@kolkov/ngx-gallery": "^2.0.1",
     "@ngx-translate/core": "^14.0.0",
@@ -30,11 +26,6 @@
     "@scullyio/ng-lib": "^2.1.0",
     "@scullyio/platform-server": "^2.1.0",
     "@scullyio/scully": "^2.1.0",
-<<<<<<< HEAD
-    "@scullyio/scully-plugin-puppeteer": "^2.1.0",
-=======
-    "@scullyio/scully-plugin-playwright": "^2.1.0",
->>>>>>> 8fcd53c817193e16932da57cc6be6144be8fdd84
     "angular-google-tag-manager": "^1.5.0",
     "bootstrap": "^5.1.3",
     "font-awesome": "^4.7.0",
