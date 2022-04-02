@@ -42,7 +42,7 @@ testem.log
 Thumbs.db
 
 #deploy
-deploy.tar.gz
+dist.tar.gz
 
 scully.log
 scullyStats.json
