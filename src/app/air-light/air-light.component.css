@@ -30,7 +30,7 @@
 
 .top-right {
     position: absolute;
-    top: 25%;
+    top: 45%;
     right: 80px;
   }
 
@@ -57,6 +57,7 @@
 .btn-report {
     background-color: white;
     border: 2px solid #E2E2E2;
+    margin-right: 15px;
 }
 
 .podtitle-text {
@@ -125,6 +126,10 @@
     display: none;
 }
 
+.cont {
+    display: none;
+}
+
 @media screen and (max-width:1200px) {
     .airTitle {
         font-size: 36px;
@@ -140,6 +145,13 @@
     .info-section {
         padding: 40px 100px 80px;
     
+    }
+    .top-right {
+        display: none;
+      }
+
+      .cont {
+        display: block;
     }
     .long-col {
         width: 100%;
@@ -182,9 +194,7 @@
         /* padding: 0 40px; */
         padding: 40px 40px 80px;
     }
-    .top-right {
-        display: none;
-      }
+    
 
       .air_video_title {
         display: block;
