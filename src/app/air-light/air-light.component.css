@@ -9,17 +9,15 @@
 
 .airTitle {
     font-size: 48px;
-    width: 320px;
+    /* width: 320px; */
     text-align: left;
     font-weight: 600;
 }
 
 .airText {
     font-size: 32px;
-    width: 420px;
+    width: 435px;
     text-align: left;
-
-
 }
 
 .btn-more {
@@ -33,7 +31,7 @@
 .top-right {
     position: absolute;
     top: 25%;
-    right: 100px;
+    right: 80px;
   }
 
 .airlight-title {
@@ -123,10 +121,24 @@
 
 }
 
+.air_video_title {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .airTitle {
+        font-size: 36px;
+    }
+    
+    .airText {
+        font-size: 28px;
+        width: 360px;
+    }
+}
 
   @media screen and (max-width: 992px) {
     .info-section {
-        padding: 60px 100px 80px;
+        padding: 40px 100px 80px;
     
     }
     .long-col {
@@ -168,9 +180,19 @@
   @media screen and (max-width: 768px) {
     .info-section {
         /* padding: 0 40px; */
-        padding: 60px 40px 80px;
+        padding: 40px 40px 80px;
+    }
+    .top-right {
+        display: none;
+      }
 
-
+      .air_video_title {
+        display: block;
+        padding: 40px 40px 40px;
+    }
+    .airText {
+        width: 100%;
+        margin-bottom: 0;
     }
   }
 
@@ -187,7 +209,20 @@
   @media screen and (max-width: 499px) {
     .info-section {
       /* padding: 0 15px; */
-      padding: 60px 15px 80px;
+      padding: 40px 15px 80px;
+    }
 
+    .air_video_title {
+        display: block;
+        padding: 40px 15px 40px;
+    }
+    .airTitle {
+        font-size: 28px;
+    }
+    .airText {
+        font-size: 24px;
+    }
+    .airlight-podtitle {
+        font-size: 24px;
     }
   }
