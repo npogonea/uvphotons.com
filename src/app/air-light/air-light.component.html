@@ -1,0 +1,236 @@
+<div class="video-section">
+    <video controls class="video" width="100%" #videoPlayer autoplay [muted]="'muted'" loop>
+        <source  src="assets/video/airLight_animation.mp4" >
+      </video>
+      <!-- <div class="top-right">
+        <p class="airTitle">Clean Air</p>
+        <p  class="airText"><span style="font-weight: 600;">Ultra Silent</span> portable industy-grade air purifier. Eliminating <span style="font-weight: 600;">99,999%</span> of airborne viruses and bacteria.</p>
+      </div> -->
+      <!-- <div class="top-right">Clean Air</div>
+      <div class="top-right">Ultra Silent portable industy-grade air purifier. Eliminating 99,999% of airborne viruses and bacteria.</div> -->
+
+</div>
+
+  <div class="container cont">
+    <div class="image-section1">
+      <div class="intro-text1">
+        <div class="on-top">
+          <div class="row">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+              <div class="window">
+                <p class="col-12 vxones-title1">AirLight</p>
+                <p class="col-12 vxones-text1" translate>Powerfull and smart introducting the new VX-One S UV-C mobile disinfection unit.t</p>
+                <button type="button" class="btn btn-order" (click)="openModal('order-modal')" translate>order</button>
+                <button type="button" routerLink="/products/airLight" fragment="airLight-section" routerLinkActive="active" class="btn btn-more" translate>nav.more</button>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+<div class="container"> 
+    <div class="info-section">
+      <div class="row">
+        <div class="col-lg-6">
+            <p class="vxone-s-title" translate>Ultra silent Industrial grade <br> air purifier</p>
+        </div>
+        <div class="col-lg-6">
+            <p class="airlight-podtitle">Eliminating 99.97% of airborn particles of 0.3 microns (HEPA H13 ) including Coronavirus family.</p> 
+        </div>
+        <div class="col-lg-6">
+            <img class="dots-xs" src="assets/images/Decor-Dots-xs.png" alt="UV Lamp" >
+          </div>
+        <div class="col-lg-6">
+            <div class="col-lg-12" style="padding-left: 0;">
+                <p class="test-title">*Tested by independent laboratories.</p>
+            </div>
+            <div class="col-lg-6" style="padding-left: 0;">
+                <button class="btn btn-report">Lab report</button>
+            </div>
+        </div>
+      </div>
+    </div>
+   
+</div>
+
+
+<div class="container">
+    <div class=" information-section" id="airLight-section">
+        <div class="row">
+            <div class="col-lg-4"  style="z-index: 1;">
+                <p class="airlight-podtitle" >Ultra silent <br> and mobile</p>
+                <p class="podtitle-text long-col">AirLight utilizes an advanced array of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>
+            </div>
+            <div class="col-lg-8" style="z-index: 0;">
+                <img width="100%" style="float: right;" src="assets/images/airLight-inside.png" alt="UV Lamp">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                
+                <p class="podtitle-text"><i class="fa fa-arrow-right numbers" aria-hidden="true"></i>AirLight utilizes an advanced of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="podtitle-text"><i class="fa fa-arrow-right numbers" aria-hidden="true"></i>The H13 HEPA filter captures viruses, bacteria, and tiny microorganisms inside the filter's internal surface.</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="podtitle-text"><i class="fa fa-arrow-right numbers" aria-hidden="true"></i>The UVC Light breaks down the DNA and RNA of pathogens and thereby inactivates them.</p>
+            </div>
+        </div>
+        </div>
+</div>
+
+<div class="container">
+    <div class=" information-section">
+        <div class="row">
+            <div class="col-lg-4">
+                <img width="100%"  src="assets/images/air-touch-screen.png" alt="UV Lamp">
+                
+            </div>
+            <div class="col-lg-7">
+                <img class="airLight-unit" width="100%" style="float: right;" src="assets/images/airLight-unit.png" alt="UV Lamp">
+            </div>
+            <div class="col-lg-1">
+                <img class="dots-xs" style="float: right;" src="assets/images/Decor-Dots-xs.png" alt="UV Lamp" >
+            </div>
+            <div class="col-lg-6" style="margin-top: -25%;">
+                <p class="airlight-podtitle" style="margin-top: 40px;">High precision <br> air quality <br> sensors</p>
+                <p class="podtitle-text">AirLight utilizes an advanced array of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>            
+            </div>
+        </div>
+    </div>
+</div>
+
+ <div class="container">
+    <div class="information-section">
+        <div class="row">
+            <div class="col-lg-12">
+              <ngx-gallery class="ngx-gallery" style="width: 100%; height: 600px; float: right;" [options]="galleryOptions" [images]="galleryImages" ></ngx-gallery>
+            </div>
+          </div>
+     </div>
+    
+  </div>
+
+<div class="container">
+    <div class="information-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <img width="100%"  src="assets/images/air_filter_inside.png" alt="UV Lamp">
+                <div class="row" style="padding-left: 15px;">
+                <div class="col-lg-12" style="margin-top: -10%;">
+                    <p class="airlight-podtitle title-pad">Industry grade <br> filters</p>
+                    <p class="podtitle-text title-pad">AirLight utilizes an advanced array of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>            
+                </div>
+                <div class="col-lg-12">
+                    <div class="col-lg-12" style="padding-left: 0;">
+                        <p class="test-title title-pad" style="margin-top: 40px;">*Tested by independent laboratories.</p>
+                    </div>
+                    <div class="col-lg-12 btn-report-B">
+                        <button class="btn btn-report ">Lab report</button>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <img class="dots-xs" style="float: right; margin-top: 30px;" src="assets/images/Decor-Dots-xs.png" alt="UV Lamp" >
+                </div>
+                
+                </div>
+                <div class="col-lg-12" style="padding: 0;">
+                    <img width="100%" style="margin-top: 80px;" src="assets/images/airLight_fan.png" alt="UV Lamp" >
+                    <div class="row" style="padding-left: 15px;">
+                        <div class="col-lg-12" style="margin-top: -10%;">
+                            <p class="airlight-podtitle title-pad">Industry grade <br> filters</p>
+                            <p class="podtitle-text title-pad">With a unique designed sound barrier that captures the vibration of the inlet airflow combined with an ultra silent fan motor, the AirLight operates at 300 m3 airflow per hour at only 38dB.</p>            
+                            <p class="podtitle-text title-pad">It allows the purification of air up to 1400 m3/h flow* at the level of industrial air purifiers, but does not create noise.</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="test-title title-pad" style="margin-top: 20px;">*<span style="font-weight: 600;">AirLight</span> QUIET MAX</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <img class="dots-xs margn-b title-pad" style="margin-top: 30px;" src="assets/images/Decor-Dots-md1.png" alt="UV Lamp" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img style="margin-bottom: 80px; float: right;" class="hide" src="assets/images/Decor-Dots-md.jpg" alt="AirLight">
+                <img width="100%" style="float: right;"  src="assets/images/filter_airLight.png" alt="AirLight">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8" style="margin-top: -10%;">
+                    <p class="airlight-podtitle title-pad">UVC <br> Disinfection</p>
+                    <p class="podtitle-text title-pad">AirLight incorporates very powerful UVC lamps to eliminate microorganisms trapped in the HEPA filter.</p>
+                    <p class="podtitle-text title-pad">UVC light will break the molecular bonds within microorganismal DNA, producing thymine dimers. This process destroys them, renders them harmless, and prohibits their growth and reproduction. When the DNA is damaged, the organism cannot reproduce or cause infections.</p> 
+                    <div class="col-lg-2"></div>
+                </div>
+                </div>
+            <div class="col-lg-12" style="padding: 0; margin-top: 80px; margin-right: 30px;">
+                <img width="100%" style="float: right;" src="assets/images/mobile_app.png" alt="AirLight">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8" style="margin-top: -10%;">
+                        <p class="airlight-podtitle title-pad">Mobile <br> Application</p>
+                        <p class="podtitle-text title-pad">Access all air quality data in real-time from your mobile phone, adjust the mode and speed of your AirLight fan. Or set the timer to start the air disinfection on your own schedule.</p>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- <div class="offset-2"></div> -->
+                    <div class="col apple-app">
+                        <img src="assets/images/apple.png" alt="AirLight">
+                    </div>
+                    <div class="col google-app">
+                        <img src="assets/images/google.png" alt="AirLight">
+                    </div>
+                    <!-- <div class="col-sm-2"></div> -->
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="container">
+    <div class=" information-section">
+        <div class="row">
+            <div class="col-lg-10">
+                <video controls class="video" width="100%" #videoPlayer autoplay [muted]="'muted'" loop>
+                    <source  src="assets/video/airLight_animation.mp4" >
+                  </video>
+            </div>
+            <div class="col-lg-2">
+                <img class="dots-xs" style="float: right;" src="assets/images/Decor-Dots-xs.png" alt="UV Lamp" >
+            </div>
+        </div>
+    </div>
+</div> -->
+<jw-modal id="order-modal">
+    <app-ordermodal></app-ordermodal>
+    <!-- <button (click)="closeModal('order-modal');" class="btn-close">Close</button> -->
+  </jw-modal>
+
+<!-- <div class="container airLight-box">
+    <img class="unit-img" src="assets/images/airLight-inside.png" alt="Snow" style="width:70%;">
+    <div>
+        <div class="bottom-left">Bottom Left</div>
+    <div class="top-left">Top Left</div>
+    <div class="top-right">Top Right</div>
+    <div class="bottom-right">Bottom Right</div>
+    <div class="centered">Centered</div>
+    </div>
+    
+  </div> -->
+
+<!-- <div class="container">
+    <div class="image-airlight">
+    <div class="top-left">Ultra silent</div>
+    <p class="podtitle-text top-left">AirLight utilizes an advanced array of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>
+    <img width="80%" style="float: right;" src="assets/images/airLight-inside.png" alt="UV Lamp">
+    </div>
+  </div> -->
