@@ -14,7 +14,6 @@ import { PostComponent } from './blog-posts/post/post.component'
 import { VxoneAirComponent } from './vxone-air/vxone-air.component';
 import { VxoneSComponent } from './vxone-s/vxone-s.component';
 import { AirlightAndroidComponent } from './airlight/airlight-android/airlight-android.component';
-import { AirlightIosComponent } from './airlight/airlight-ios/airlight-ios.component';
 
 const appRoutes: Routes = [
   { path: '', component: LandingComponent },
@@ -31,7 +30,6 @@ const appRoutes: Routes = [
   { path: 'stories', component: BlogPostsComponent },
   { path: 'stories/:slug', component: PostComponent },
   { path: 'airlight/android', component: AirlightAndroidComponent },
-  { path: 'airlight/ios', component: AirlightIosComponent },
 
 ];
 
