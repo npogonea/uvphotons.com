@@ -119,4 +119,33 @@ export class AirLightComponent implements OnInit {
     this.gtmService.pushTag(gtmTag);
   }
 
+  openDialogA() {
+    const el = document.getElementById('a');
+    if (el!.style.display == 'block' )
+     {
+      el!.style.display = 'none';
+     } else {
+      el!.style.display = 'block';
+     }
+  }
+
+  openDialogB() {
+    const el = document.getElementById('b');
+    if (el!.style.display == 'block' )
+     {
+      el!.style.display = 'none';
+     } else {
+      el!.style.display = 'block';
+     }
+  }
+  openDialogC() {
+    const el = document.getElementById('c');
+    if (el!.style.display == 'block' )
+     {
+      el!.style.display = 'none';
+     } else {
+      el!.style.display = 'block';
+     }
+  }
+
 }

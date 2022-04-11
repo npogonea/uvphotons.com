@@ -5,10 +5,20 @@
     <div class="container">
     <div class="row top-right">
         <!-- <div class="col-md-5"></div> -->
-            <div class="col-md-7">
+            <!-- <div class="col-md-7">
                 <p class="airTitle">Clean Air</p>
                 <p  class="airText"><span style="font-weight: 600;">Ultra Silent</span> portable industy-grade air purifier. Eliminating <span style="font-weight: 600;">99,999%</span> of airborne viruses and bacteria.</p>
-              </div>
+              </div> -->
+              <div class="col-lg-6"></div>
+              <div class="col-lg-6">
+                <div class="window">
+                  <p class="col-12 vxones-title1">AirLight</p>
+                  <p class="col-12 vxones-text1" translate><span style="font-weight: 600;">Ultra Silent</span> portable industy-grade air purifier. Eliminating <span style="font-weight: 600;">99,999%</span> of airborne viruses and bacteria.</p>
+                  <button type="button" class="btn btn-order" (click)="openModal('order-modal')" translate>order</button>
+                  <button type="button" routerLink="/products/airLight" fragment="airLight-section" routerLinkActive="active" class="btn btn-more" translate>nav.more</button>
+                </div>
+                </div>
+               
     </div>
         
 </div>
@@ -22,12 +32,12 @@
           <div class="row">
             <div class="col-lg-6"></div>
             <div class="col-lg-6">
-              <div class="window">
+              <!-- <div class="window">
                 <p class="col-12 vxones-title1">AirLight</p>
                 <p class="col-12 vxones-text1" translate>Powerfull and smart introducting the new VX-One S UV-C mobile disinfection unit.t</p>
                 <button type="button" class="btn btn-order" (click)="openModal('order-modal')" translate>order</button>
                 <button type="button" routerLink="/products/airLight" fragment="airLight-section" routerLinkActive="active" class="btn btn-more" translate>nav.more</button>
-              </div>
+              </div> -->
               </div>
           </div>
         </div>
@@ -54,7 +64,7 @@
             <p class="vxone-s-title" translate>Ultra silent Industrial grade <br> air purifier</p>
         </div>
         <div class="col-lg-6">
-            <p class="airlight-podtitle">Eliminating 99.97% of airborn particles of 0.3 microns (HEPA H13 ) including Coronavirus family.</p> 
+            <p class="airlight-podtitle">AirLight has undergone extensive lab verification*, showing 99,999% bacterial and 99,9999% virucidal elimination.</p> 
         </div>
         <div class="col-lg-6">
             <img class="dots-xs" src="assets/images/Decor-Dots-xs.png" alt="UV Lamp" >
@@ -64,7 +74,8 @@
                 <p class="test-title">*Tested by independent laboratories.</p>
             </div>
             <div class="col-lg-6" style="padding-left: 0;">
-                <button class="btn btn-report">Lab report</button>
+                <button class="btn btn-report">Validation Report</button>
+                <button class="btn btn-report">Certificate</button>
             </div>
         </div>
       </div>
@@ -88,7 +99,7 @@
         <div class="row">
             <div class="col-lg-4">
                 
-                <p class="podtitle-text"><i class="fa fa-arrow-right numbers" aria-hidden="true"></i>AirLight utilizes an advanced of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>
+                <p class="podtitle-text"><i class="fa fa-arrow-right numbers" aria-hidden="true"></i>The F9 filter prefilters up to 95% of ePM10 and up to 80% of ePM1 particles and extends the HEPA filter lifespan.</p>
             </div>
             <div class="col-lg-4">
                 <p class="podtitle-text"><i class="fa fa-arrow-right numbers" aria-hidden="true"></i>The H13 HEPA filter captures viruses, bacteria, and tiny microorganisms inside the filter's internal surface.</p>
@@ -115,7 +126,7 @@
             </div>
             <div class="col-lg-6" style="margin-top: -25%;">
                 <p class="airlight-podtitle" style="margin-top: 40px;">High precision <br> air quality <br> sensors</p>
-                <p class="podtitle-text">AirLight utilizes an advanced array of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>            
+                <p class="podtitle-text">Advanced air quality sensors provide real-time room air quality data and adjust the fan operation speed.</p>            
             </div>
         </div>
     </div>
@@ -140,14 +151,15 @@
                 <div class="row" style="padding-left: 15px;">
                 <div class="col-lg-12" style="margin-top: -10%;">
                     <p class="airlight-podtitle title-pad">Industry grade <br> filters</p>
-                    <p class="podtitle-text title-pad">AirLight utilizes an advanced array of high-precision air sensors which control a three-layer UVC light air filtering system to provide safe and clean air.</p>            
+                    <p class="podtitle-text title-pad">Special design long-lasting filters that resist UVC radiation. Up to 10x the size of competitive products. AirLight has undergone extensive testing, proving 99.999% elimination of bacteria and 99.9999% elimination of viruses.</p>            
                 </div>
                 <div class="col-lg-12">
                     <div class="col-lg-12" style="padding-left: 0;">
                         <p class="test-title title-pad" style="margin-top: 40px;">*Tested by independent laboratories.</p>
                     </div>
                     <div class="col-lg-12 btn-report-B">
-                        <button class="btn btn-report ">Lab report</button>
+                        <button class="btn btn-report ">Validation report</button>
+                        <a href="https://uvphotons.com/datasheet/AirLight_case_study_MS2.pdf"><button class="btn btn-report ">Case study</button></a>
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -198,10 +210,10 @@
                 <div class="row">
                     <!-- <div class="offset-2"></div> -->
                     <div class="col apple-app">
-                        <img src="assets/images/apple.png" alt="AirLight">
+                        <a href="https://apps.apple.com/si/app/airlight-by-uvphotons/id1617604075"><img src="assets/images/apple.png" alt="AirLight"></a>
                     </div>
                     <div class="col google-app">
-                        <img src="assets/images/google.png" alt="AirLight">
+                        <a href="https://uvphotons.com/airlight/android"><img src="assets/images/google.png" alt="AirLight"></a>
                     </div>
                     <!-- <div class="col-sm-2"></div> -->
                 </div>
@@ -209,8 +221,30 @@
             
             </div>
         </div>
-    </div>
+        <hr class="new1">
+<div class="row" (click)="openDialogC()">
+  <div class="col-9">
+    <p class="blog-title1" translate>Documents</p>
+  </div>
+  <div class="col-3">
+    <img class="arrow-down" src="assets/images/arrow-down.png">
+  </div>
 </div>
+<div class="content" id="{{'c'}}">
+  <p>1. <a href="https://uvphotons.com/datasheet/VXAIR2020121401-CE.pdf">AirLight Product Presentation ENG</a></p>
+  <p>2. <a href="https://uvphotons.com/datasheet/VXAIR2020121401-CE.pdf">AirLight Technical Specification</a></p>
+  <p>3. <a href="https://uvphotons.com/datasheet/VXAIR2020121401-CE.pdf">Certificate of Antimicrobial Efficacy</a></p>
+  <p>4. <a href="https://uvphotons.com/datasheet/VXAIR2020121401-CE.pdf">Validation report of antimicrobial efficacy</a></p>
+  <p>5. <a href="https://uvphotons.com/datasheet/AirLight_case_study_MS2.pdf">Case study of antimicrobial efficacy of three different disinfection procedures</a></p>
+  <p>6. <a href="https://uvphotons.com/datasheet/VXAIR2020121401-CE.pdf">EU Declaration of Conformity - CE</a></p>
+
+</div>
+<hr class="new1">
+    </div>
+
+</div>
+
+
 
 <!-- <div class="container">
     <div class=" information-section">
