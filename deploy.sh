@@ -8,7 +8,7 @@ echo Deploying $SERVERNAME
 echo INITIATING NG BUILD production
 ng build --prod
 echo INITIATING SCULLY STATIC
-npx scully -- --scanRoutes
+npx scully --scanRoutes
 echo GZTAR operation...
 tar -zcvf dist.tar.gz dist/static
 echo Distribution folder updated. ;

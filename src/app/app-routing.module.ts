@@ -28,7 +28,7 @@ const appRoutes: Routes = [
   { path: 'products/xxl55w', component: Xxl55wLampComponent },
   { path: 'products/xl70w', component: Xl70wLampComponent },
   { path: 'products/c110w', component: C110wLampComponent },
-  { path: 'products/airLight', component: AirLightComponent },
+  { path: 'products/airlight', component: AirLightComponent },
   { path: 'stories', component: BlogPostsComponent },
   { path: 'stories/:slug', component: PostComponent },
   { path: 'airlight/android', component: AirlightAndroidComponent },
