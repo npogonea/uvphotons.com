@@ -36,12 +36,12 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { OrdermodalComponent } from './modal/ordermodal/ordermodal.component'
 
 import { PostComponent } from './blog-posts/post/post.component';
-import { AirlightComponent } from './airlight/airlight.component';
-import { AirlightAndroidComponent } from './airlight/airlight-android/airlight-android.component';
-import { AirlightIosComponent } from './airlight/airlight-ios/airlight-ios.component'
+import { AirlightComponent } from './airlight-app/airlight.component';
+import { AirlightAndroidComponent } from './airlight-app/airlight-android/airlight-android.component';
+import { AirlightIosComponent } from './airlight-app/airlight-ios/airlight-ios.component'
 import 'hammerjs';
 import { ScullyLibModule } from '@scullyio/ng-lib';
-
+import { AirLightComponent } from './air-light/air-light.component'
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -72,7 +72,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PostComponent,
     AirlightComponent,
     AirlightAndroidComponent,
-    AirlightIosComponent
+    AirlightIosComponent,
+    AirLightComponent
   ],
   imports: [
     RouterModule,
