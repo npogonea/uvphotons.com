@@ -7,6 +7,14 @@
   text-align: center;
 }
 
+.showvideo {
+    display: block;
+}
+
+.showgif { 
+    display: none;
+}
+
 .airTitle {
     font-size: 48px;
     /* width: 320px; */
@@ -214,6 +222,13 @@
     /* .apple-app {
         margin-bottom: 30px;
     } */
+    .showvideo {
+        display: none;
+    }
+
+    .showgif { 
+        display: block;
+    }
   }
 
   @media screen and (max-width: 499px) {
@@ -234,5 +249,8 @@
     }
     .airlight-podtitle {
         font-size: 24px;
+    }
+    .showvideo {
+        display: none;
     }
   }
