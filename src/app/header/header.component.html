@@ -32,11 +32,30 @@
             <a class="nav-link nav-link-right" routerLink="/" fragment="footer" routerLinkActive="active" href="#" translate>nav.contact</a>
           </li>
         </ul>
-        <!-- <div class="nav-bar" style="float: right;">
-          <button class=" btn-lang" (click)="useLanguage('en')">en</button>
+        <!-- <div class="nav-bar" style="float: right;"> -->
+          <!-- <i class="fa fa-globe" aria-hidden="true" style="font-size: 24px;"></i> -->
+          <!-- <button class=" btn-lang" (click)="useLanguage('en')">en</button>
           <button  class=" btn-lang" (click)="useLanguage('si')">si</button>
-          <button class=" btn-lang" (click)="useLanguage('ru')">de</button>
-        </div> -->
+          <button class=" btn-lang" (click)="useLanguage('de')">de</button>
+          <button class=" btn-lang" (click)="useLanguage('it')">it</button> -->
+              <!-- <img style="margin-left: 10px;" (click)="useLanguage('en')" width="24px" src="assets/images/united.png" alt="">
+          <img style="margin-left: 10px;" (click)="useLanguage('de')" width="24px" src="assets/images/germany.png" alt=""> -->
+          <!-- <img style="margin-left: 10px;" (click)="useLanguage('si')" width="24px" src="assets/images/slovenia.png" alt=""> -->
+          <!-- <div class="nav-translation"> -->
+            <div >
+              <div class="nav-translation">
+                  <div class="dropdown1">
+                    <!-- <button class="dropbtn">Dropdown</button> -->
+                    <p class="dropbtn"></p><i class="fa fa-globe" aria-hidden="true" style="font-size: 24px;"></i>
+                    <div class="dropdown-content1">
+                      <button class=" btn-lang" (click)="useLanguage('en')">EN</button>
+                        <button  class=" btn-lang" (click)="useLanguage('si')">SI</button>
+                        <button class=" btn-lang" (click)="useLanguage('de')">DE</button>
+                        <!-- <button class=" btn-lang" (click)="useLanguage('it')">IT</button> -->
+                    </div>
+                  </div>
+              </div>
+        </div>
       </div>
   </nav>
   </div>
@@ -59,7 +78,17 @@
             <a routerLink="/" fragment="about" routerLinkActive="active" href="#"><p>About</p></a>
             <a routerLink="/" fragment="stories" routerLinkActive="active" href="#"><p>Stories</p></a>
             <a routerLink="/" fragment="footer" routerLinkActive="active" href="#"><p>Contact</p></a>
+            <div class="nav-bar" style="margin-bottom: 20px; margin-left: 10px;">
+              <button class=" btn-lang" (click)="useLanguage('en')">en</button>
+              <!-- <img style="margin-left: 10px;" (click)="useLanguage('en')" width="24px" src="assets/images/united.png" alt="">
+              <img style="margin-left: 10px;" (click)="useLanguage('de')" width="24px" src="assets/images/germany.png" alt=""> -->
+              <!-- <img style="margin-left: 10px;" (click)="useLanguage('si')" width="24px" src="assets/images/slovenia.png" alt=""> -->
+    
+              <button  class=" btn-lang" (click)="useLanguage('si')">si</button>
+              <button class=" btn-lang" (click)="useLanguage('de')">de</button>
+            </div>
           </div>
+          
         </div>
       </div>
   </div>
