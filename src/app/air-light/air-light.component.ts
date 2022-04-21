@@ -21,7 +21,10 @@ export class AirLightComponent implements OnInit {
     private gtmService: GoogleTagManagerService,
     private router: Router,
     private translate: TranslateService
-    ) { translate.setDefaultLang('en'); }
+    ) { 
+      // translate.addLangs(['en', 'de', 'it']);
+    // translate.setDefaultLang('si');
+  }
 
   ngOnInit(): void {
     this.galleryOptions =[

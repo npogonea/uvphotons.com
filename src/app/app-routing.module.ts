@@ -18,6 +18,9 @@ import { AirLightComponent } from './air-light/air-light.component'
 
 const appRoutes: Routes = [
   { path: '', component: LandingComponent },
+  { path: 'en', component: LandingComponent },
+  { path: 'de', component: LandingComponent },
+  { path: 'sl', component: LandingComponent },
   { path: 'home', component: LandingComponent },
   { path: 'products/vxone', component: VxoneSComponent },
   { path: 'products/mobile-units', component: MobileUnitComponent },

@@ -10,15 +10,17 @@ export class HeaderComponent implements OnInit {
   display = 'none';
 
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
+    // translate.addLangs(['en', 'de', 'it']);
+    // translate.setDefaultLang('si');
   }
 
   useLanguage(language: string) {
-  this.translate.use(language);
+    this.translate.use(language);
   }
 
   ngOnInit(): void {
   }
+
 
   openDialogC() {
     const el = document.getElementById('c');
