@@ -21,7 +21,7 @@ export class LandingComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.titleService.setTitle(this.title);
+    // this.titleService.setTitle(this.title);
     this.href = this.router.url;
     this.checkLangBrowser(this.href)
 
