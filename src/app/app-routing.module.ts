@@ -34,8 +34,6 @@ const appRoutes: Routes = [
   { path: 'products/airlight', component: AirLightComponent },
   { path: 'stories', component: BlogPostsComponent },
   { path: 'stories/:slug', component: PostComponent },
-  { path: 'airlight/android', component: AirlightAndroidComponent },
-
 ];
 
 @NgModule({
