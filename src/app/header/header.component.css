@@ -102,7 +102,7 @@ font-size: 14px;
   background-color: #fcfcfc;
   z-index: 1;
   padding: 15px 5px 15px 10px ;
-  margin-left: -130px;
+  margin-left: -170px;
 }
 
 .dropdown-content1 a {
@@ -127,21 +127,21 @@ font-size: 14px;
   .mobile-navbar {
     display: block;
     /* height: 50px; */
+    /* margin-top: 40px; */
     padding: 20px 20px 20px 20px;
     /* margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px; */
+
   }
+ 
   .dropdown .dropmenu {
-    font-size: 16px;
+    /* font-size: 16px; */
     border: none;
     outline: none;
     color: white;
     padding: 5px 0px 0px 116px;
     font-family: inherit;
-    margin: 0;
-    /* width: 160px; */
-
 
   }
   .dropdown-content {
@@ -152,11 +152,12 @@ font-size: 14px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-top: -20px;
   }
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 20px 15px 10px 15px;
+    padding: 10px 15px 5px 15px;
     text-decoration: none;
     display: block;
     text-align: left;

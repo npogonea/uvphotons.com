@@ -36,6 +36,7 @@ export class LandingComponent implements OnInit {
     console.log(lang)
     if (lang == "/en") this.translate.use('en')
     else if (lang == "/de") this.translate.use('de')
+    else if (lang == "/it") this.translate.use('it')
     else if (lang == "/sl") this.translate.use('si')
     else if (lang == "/si") this.translate.use('si')
   }

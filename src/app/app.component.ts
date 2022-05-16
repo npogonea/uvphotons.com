@@ -14,7 +14,7 @@ export class AppComponent {
     private router:Router) {
     // translate.setDefaultLang('en');
     // translate.use('en');
-    translate.addLangs(['en', 'de', 'si']);
+    translate.addLangs(['en', 'de', 'si', 'it']);
     translate.setDefaultLang('en');
 
 
@@ -30,6 +30,7 @@ export class AppComponent {
   checkLangBrowser(lang: string) {
     if (lang == "en") this.translate.use('en')
     else if (lang == "de") this.translate.use('de')
+    else if (lang == "it") this.translate.use('it')
     else if (lang == "sl") this.translate.use('si')
   }
 

@@ -5,6 +5,7 @@
 .video-section {
     position: relative;
   text-align: center;
+  z-index: 0;
 }
 
 .showvideo {
